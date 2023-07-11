@@ -1,0 +1,1061 @@
+^^^ Full Stack Datascience & AI with CHATGPT ^^ ==>
+--------------------------------------------------------------------
+^^^(22nd June 23)^^^
+
+- The learners who raise their hand we will discuss & I will answer everybody question after 1 hr 
+- Day1 for the demo for new batch 10 am 
+- Introduce to chatgpt 
+- Human intelience vs artificial intelligence 
+- Pytessarct & ocr , opencv to the machine machine statrted thinkinlike human
+- Ml which is number plate of the car
+- Project -- number plate detection using pytessarct & python
+- Pytessaract & OCR (Optical Character Recognition) engine, cv2
+- non technical, fresher
+- Introductin about myself 
+- using chatgpt lets understand about pytesarct
+- what prerequist
+- active listening in the class
+- 4.6 months (2.6 months I will tell my student to please apply the job )
+- after completed python, stats, machine learning , nlp == build resume & apply for the job 
+- To get offer -- we need to give interview -- call -- resume --- projects -- skills -- from me 
+- 17yr experience  
+- 2yr -- 100 student palced 
+- Do you providse placemeht 
+-- do not pay 1r -- consutal ( fraud)
+-- do not apply job from facebook, instagram 
+-- please keep giving more and more interview 
+- Does certification readly required to get a job 
+-- microsoft | tcs | google 
+- skill & goal 
+-- non tech -- online -- rajeswari -- 7337313417
+-- offline -- rejesh -- 
+************************
+^^^(23rd June 23)^^^
+
+- Full stack datascience
+- Types of data --> strcture data & unstructured data
+- ba vs da vs de vs ds vs fsds
+- Who will enroll this course 
+- Github & linkedin
+- Q & A 
+==== The learners who joined for the first time
+this is 2nd day of the batch
+I will share the recording for yesterdays session and also i will briefing what we done yesterday 
+
+- if you have any question you can reach out to me after 1hr 
+-- full stack data science 
+
+--- full stack   ++ datasciecne 
+
+facebook.com -- login , pwd  --- front end 
+backedn- developer are write the code in the backed 
+full stack datascinece -- end to end 
+backend -- ml model -- regression, classificaiton ( ai model_- image, speech, video) 
+frontend -- deploy the code -- html, web page design, flask, heroku, mlops, stramlite, azur , aws, gcp) 
+data science ==> data + science 
+data -->
+how the data borns -:
+1- customer 
+2- internet -- 
+column name == attribute == features == variable 
+strucuted data = supervised learning = labeled data  
+ipl match 
+you see the visualization -- ipl data visualization -- data analyst 
+database -- historical data 
+python code -- visualize -- data visualization
+
+data visualization tools in python proagram -- numpy, matplotlibe, seaborn 
+structure data c
+-- If you not understan few of this thing no need to worry 
+
+customer data -- data which we extracted from the database -- structured | supervised | labled data
+internet -- netfl  
+
+When you deals with unstructed data -- image, video, audio, speech, text,voice, -- AI 
+
+PACKAGE TO THE MACHIEN -- MACHIEN STATS THINKING LIKE HUMAN 
+
+SUPERVISED VS UNSUPERVISED LEARNING 
+
+Error type 
+
+type error || atrribute error || name error | 
+
+machine learning, ai 
+python 
+datascience projec tusing python, R, pyspark 
+
+Error - bug || Fix the error - Debug
+********26th************
+data stored in database 
+we write sql query to extrac the data from the db
+
+what type of data -- structured data 
+
+sparkc + c 
+
+spark + java 
+
+spark + python -- pyspark 
+
+DALL·E 2 can create original, realistic images and art from a text description. 
+It can combine concepts, attributes, and styles.
+
+open AI 
+
+ML 
+ML - NLP MODEL -- DL -- REINFORM
+
+DATA SCIECE PROJECT -- 
+-- 1 PROJECT - SUPERVISED LEARNING 
+
+1 PROJECT - UNSPURVISED LEARNING 
+
+1 PROJECT -- REINFORMATION 
+
+POC -- R & D( PROOF OF CONCEPT) 
+
+pixele -- (0 - 255 )
+
+low green ::  10- 50 || dark green :: 200- 255
+30 job 
+-- 1 monht --  900 jobs
+10 job - call  || -- 5job - hr -- 2nd ro
+
+5 job -- 3 cleared  1st round 
+
+1- would be offer  ||  you 1mont 900 job -- 
+
+cpu vs gpu 
+system ram vs google ram 
+4gb vs 16gb ram '
+
+i5 cores | ssd 256-512 gb || 8gbram | 
+window 7 
+********27th******
+AGENDA FOR TODAYS TOPIC -->
+
+- Roadmap  -- done 
+- Free lancing -- done 
+- What algorithms we need to cover 
+- Tableau Introduction  -- done 
+- Some of the demo slides
+- Software installation 
+- q & a
+
+Road map ==>
+
+4.6 month we wil working projec in python langauge 
+
+1-python basic - datastructre - numpy, pd, sns, plt -- data analysis projects with historical data 
+2-eda - explatory data anlaysis 
+3- stats descriptive vs inferentiall 
+stasts -- ml 
+eda -- not underst ml concept
+4- sql 
+5- machine (regression algoriym , classificaiton algorith, clustering algorithmn)
+flask deployemnt 
+6- AI 	
+nlp 
+7- dl 
+8- nn 
+9- bigh data (pyspark )
+10- R 
+11- TABLEAU
+12- AZUR ML 
+13- HADOOP  
+
+
+15GB DATA -- CLOUD 
+
+aws - amazon 
+azur - microsoft
+gcp - google 
+snowflake -- ml, ai 
+
+azur ml 
+
+daabricks website bigdata 
+databricks -- amazon , microsof, google 
+
+spark + pyhton on top of scala & hadoop
+
+on top of linux machine 
+
+-- softwares 
+azurml || pyspark | databricks | hadoop
+tableu 
+
+-- you can visualize the data in python programing 
+when the data is too big big data 
+dashboar you cannot visulize 
+
+bi tool ( busines integlligence tools)
+
+sap bi
+sap bo 
+tableau 
+
+the student or learner who joined for the first time stay 
+i will talk to you at last for 15 min 
+-- day 4 
+we justed completed only 3 days 
+-- 10 
+- 10:30 
+- notepad 
+
+excel sheet 
+-- excel sheet born from database 
+-- excel sheet -- data analysis job 
+
+excelsheet -- dataset 
+
+exce sheet -- column name 
+colum names -- attribute | feature 
+
+
+the student who have quesiton i will talk to at last 
+15 min -->
+ tableau is visualizat the future prediction 
+ 
+ stocker | trader 
+ 
+ stocke | predict the future 
+
+
+-- us , uk 
+-- btce | mec
+-- 200 yes (kaggle.com) 
+
+
+the learns who dont knay any programming he is best person to learn this course
+java, c , c++ , .net  -- 5 min
+they understan 30 min  -- 20 -- 10 - 5min 
+
+stat, ml, dl -- same 
+pthon 
+=== 
+pycharm
+ide
+vs code 
+
+=== ANACONDA PYTOHON ==
+C python 
+java -- Jpython
+-- 
+bigdata & data sceicne -- anaconda python 
+
+organization -- work for client 
+client solution from you 
+
+pycahr, vscdeo, anaconda, 
+
+excel -- client 
+meet the client expection 
+
+STEPS  TO INSTALL ANACONDA SOFTWARE IN YOUR MACHINE ==>
+-----------------------------------------------------
+4gb ram || ssd processor no need to worry  || c drive 50 gb space 
+
+- 8gb ram || 256gb ssd - 512 gb || ci5 core prcessor  -- this configuaton 
+
+1- os required to install anaconda is >= windos 8, w 9, w10 
+2- google - anaconda -- https://www.anaconda.com/
+3- after you download -- install that software 
+4- after installation ( just me) 
+5- start - anaconda folder -- expand the folder we have 4 option 
+	anconda navigator -- check you are in base or not 
+	anaconda prompt ( when you type for the first time -- python ) || using cmd we install advacned packages 
+	jupyter notebook
+	spyder notebook
+6- installed software today 
+=======28th============
+AGENDA FOR TODAY SESSION -->
+
+- python introduction 
+- identifier
+- real time where we are using AI every day
+- some of the demo slides
+- how to change the theme  
+
+-- yesterday we insatll anaconda software 
+-- online team i want you to install anydesk  -- https://anydesk.en.softonic.com/
+-- clas snotes & regual agenda sheet 
+-- pthon 2half (1st half -- pjrect) 2ndhalf 
+-- make resume updload the job portal 
+-4.6 mont ( 3month -- just apply forget job ) keep attend interview 
+- only python development -- pycharm 
+- datasiced, pyspar, databricks -- ANCONDA DISTRIBUTION 
+-- yesterday i cleanrly explained the steps to install anaconda 
+
+python ide -- write the code, run the code, debug the code 
+-- hindi, telug, odian, tamil 
+-- interviwe -- englih 
+-- 3offer
+
+chatgpt is searcheachin which develope to solve many human problem 
+chatgpt can boost your skill 
+
+interpreters- you can execute line by line code 
+pvm 
+====== 
+cmd & base -- type python --> it works then thast fine, if not please follwo below steps -->
+
+How to create python environment variable 
+1- cmd - python ( if it not works)
+
+2- find the location where the python is installed -- >
+         C:\Users\kdata\AppData\Local\Programs\Python\Python311\Scripts 
+		 
+3- sysstem -- env - environment variable screen will pop up 
+
+4- select on system variable - click on path - create New 
+5- C:\Users\kdata\AppData\Local\Programs\Python\Python311
+6- env - sys variable - path - new - C:\Users\kdata\AppData\Local\Programs\Python\Python311\Scripts
+7- cmd - type python -version
+8- successfully python install in cmd      
+
+
+word -- .doc || .xlcs || .pdf 
+
+extension of notebook -- > .ipynb || spyder extesnion -- .py ( pythonfile)  
+interactive python note book 
+
+3.11 --> latest ( 6th june 2023)
+3.10
+3.9
+3.8 
+
+3.x 
+win 8 || windo 9 | wind 10 | 
+
+python 2.x 
+
+to debug the code you must need to have patiencen 
+
+googlst -- ask - 
+1hr 
+2hr 
+1day 
+2 day 
+3 rd dau 
+
+
+function always ends with ()
+a = 5 || a - identifier | object | variable 
+b - values 
+
+car -- engine || gear box
+
+python -- inbuild functiion -- print() | type() | id() | len() etc 
+
+
+python -- 
+
+-basic code -- 1month 
+-project based 
+-scenario basec
+-codng based 
+-use cased based question 
+-situation 
+
+
+fresher
+mid experinece
+experinece
+leader 
+
+--> script of your self 
+--> project script ( end to end deployemnt
+--> which client 
+--> goal of the project
+---> how tdo you deploy the project
+--> maintain the project
+--> retain the model 
+--> 1000 interview quesiotn 
+--> 30-50 interivew  || >100 
+-=-> 1offer 
+--> 20-40 
+expereince 
+
+
+what issue you face whill trian ithe based 
+dpelyment what error 
+6month - 1car sold 
+
+-->
+35% , 43, 57% , 
+lead da
+
+goa, prope r, 
+-- you need to 
+
+
+give your time 
+time will tell you .
+
+speak well interview
+
+technical english 
+
+-- 5freine || 2 fren | 
+-- learn this coruse 
+-- code it | understand code | you code 
+-- office 
+-- salry 
+
+dont have any quesiton please leave meet tom@ 10 am 
+*******29th************
+Agenda for today session -->
+---------------
+- how to change the jupyter theme -- done 
+- python introduction  -- done 
+- Python identifier & rules to define python identifier  -- done
+- Introduce to python data types 
+- How to connect throug app (this is only applicable for online student)
+- Scan the qr code to practise today code -- done
+- 1st time, 2nd time join student lets recap the previous classes 
+- About recording session
+- Need to update the drive 
+- Advanced multiclass ai project
+- Q & A 
+
+how to change python jupyter theme -->
+------------------
+1- ancond prompt
+2- make sure we are base | root
+3- pip install jupyterthemes
+4- to find out the theme ( jt -l)
+		Available Themes:
+   chesterish
+   grade3
+   gruvboxd
+   gruvboxl
+   monokai
+   oceans16
+   onedork
+   solarizedd
+   solarizedl
+ 5- jt -t grade3 -T
+ 6- refresh the screen
+ 7- we understand how to install juputyer themes 
+ --------
+ a = 5
+ b - 6 
+ c =- 7
+ 
+ a, b , c 
+ object = identifier  = variable 
+ python - came from - complete monty python's flying circus 
+ 
+ c, c++ , java, orace, datasceicn, ython, ml, ai 
+ 
+ using these langaure 
+ compnay geing profit with help of AI 
+ 
+ window | linux | machine
+ 1 code 
+ can run in window | liux | mac 
+ wind - a
+ mac - code b
+ 
+ 
+ package = library 
+ module 
+ function 
+ 
+ iphon from flipkar 
+ - pakage flipkar 
+ - iphone box 
+ - iphone 
+ 
+ package - collection of module
+ module - collection of function 
+ function -- 
+ 
+from dmart.food import fruit 
+
+dmart - pkg 
+food - module
+fruit - function 
+-----
+from sklearn.tree import decissiontreeclassifier 
+
+from numpy.random import randn 
+pyton --
+
+3.11 (6th june ) 
+
+- joining log of 
+- i will speack offline & online 
+
+IDENTIFIER -->
+--------------
+1- identifier or objec is case sensitive  
+			NAME ERROR 
+2- identifier or object cannot assign with number or digit 
+		SYNTAX ERROR 
+	
+3- assign digit at last not at begining 
+	M1 vaide but not 1M = 15
+	
+4- identifier you cant declare any special character ($, %, ^, &) 
+
+5- identifer only underscore is allowed 
+
+6- keywords can not be an identifer 
+
+7 -- how many keyword we have -- 35 keywords 
+
+8- python identifier doesnot have length limit 
+9- python we dont have constant 
+
+False      
+class      
+finally    
+is         
+return
+None       
+continue   
+for        
+lambda     
+try
+True       
+def        
+from       
+nonlocal   
+while
+and        
+del        
+global     
+not        
+with
+as         
+elif       
+if         
+or         
+yield
+assert    
+ else       
+ import     
+ pass
+break      
+except     
+in         
+raise
+
+please check wit all the keywork pass and 
+
+* ----- RULES OF PYTHON IDENTIFIER ------
+1> A to Z, a to z, 0 - 9
+2> Doesnot starts with digit
+3> Case sensitive
+4> Reserved words or keywords cannot be a identifier
+5> Identifier cannot have a lenght limit
+6> _ only allowed
+7> NO special character is allowed 
+==========================
+- Non technical ( recording is must) 
+- app 
+-- once your enroole
+
+- admin log in & Pws
+--  naresh it port a 
+-- dashboard - enter 
+==
+6 days completed 
+22nd june 
+fsds with chatgpt @ 10am- 11:30 
+*******30th***********
+- data type
+- type coversion 
+- who enrolled any question 
+- who dont enrolled lets discussed with them
+- any issue while practising 
+- 
+
+ we will discuss at the end
+ joined for first time , 2nd, 3time, - i will take back up classe
+ - demo 
+
+INTEGER --> 
+
+BINARY INTEGRAL  -- only 2 value 0 & 1
+OCTAL INTEGRAL -- only 0-7 
+DECIMLA INTEGRAM
+HEXADECIMAL INTEGRAL 
+
+ python index begins from 0
+ 
+ img_to_array || array_to_img 
+ 
+ from keras.imagedatagenerator import img_to_arra, array_to_im
+ 
+
+the concept which you are not understand i want you to practise
+in class by practice things 
+
+		Name error | Type error | syntax error | zerodivision error
+		
+TYPE OF ERROR 
+NAME ERROR || SYNTAX ERROR  
+
+- student ., learneer who joined for 1st time, 2nd, time, 3rd ti, eda
+- backup class last 15 mi or 20 min 
+- demo -- enroled 
+******3rd********
+- review on previous classes with python 
+- data type
+- type casting 
+- steps to download notes from classroom
+- students who enrolled any issue 
+- how to connect classes through online 
+- I  will share the books today 
+- Introduction 
+- check your email accept the email invite 
+- issue whil change jupyter theme 
+=== 
+
+student who joined for 1st time 30 min 
+- code which i sshare on friday did you worked 
+
+complex data type you can pass only binary or octal to real part only 
+you never pass binary or octal to imaginary 
+
+
+house(1bhk) -- 1 arugumment or 1 parameter 
+house(1bhk, 2bhk, 3bhk) --- 3 argum
+german(bmw, audi, merce, volk) -- 4 argume
+
+-- DATA TYPE CONVERSION 
+
+OTHER DATA TYPE TO INTEGER ==>
+-----------------
+type casting you can pass oly 1 argument 
+
+type casting from other data type to int & float possible except complex & string  if you pass text 
+only 1 argument is allowed
+----
+complex() - we cant pass 2 string argument
+
+
+## when i explain to you you have lot of question , 
+rather you asking me, go hoem practise once ( all question will be clearer)
+- practise then ask question 
+-to become datascience ( you no need to perfect in python code) 
+
+AGENDA --->
+- review on previous classes with python  -- completed
+- data type -- completed
+- type casting  -- completed
+- steps to download notes from classroom 
+
+after you enrool this class 
+-- admin share login & Pwd credenti to you 
+- they will send one email to your inbox. please join this 
+-- i can see or you can see the classroom info
+-- opt for recording (25k) then only you will recived recording
+-- -- Rajeshwari admin -- 7337313417 (Online)
+		any quesiton regardain recording, classnote, email is able drop a txt messga 
+-- Rajesh sir admin -- 7997997808 (Offline)
+	any quesiton regardain recording, classnote, email is able drop a txt messga
+	
+ADMIN SAID I SEND YOU MESSAGE , I DIDNT RECEIVE MESSAGE 
+GOOGLE DRIVE - 
+
+STEPS TO DOWNLOAD NOTES FROM CLASS ROOM -->
+GMAIL LOGIN - DRIVE - CLICK ON CLASSROOM -- STILL IF YOU NOT FIND PLEASE DROP TEXT MESAGE  
+
+1- enrolled 
+2- gmail in registred in the portal 
+3- you received email from me 
+4- download winrar software to unzip the -->
+	https://www.winzip.com/en/product/winzip/trial-thank-you.html?dwn=thankyou-wz-win
+5- right top corner : click on 3 dots - open in new window 
+6- please click download
+7- go to download - unzip it 
+8- you got your fiel 
+9- please work on the codel 
+- how to connect classes through online  -- share the document 
+- students who enrolled any issue 
+- your name is listed 
+-- please send scren to 
+- issue whil change jupyter theme -- white only 
+
+student who joined 
+*****4th*******
+- last day of the demo -- Online from tomorw onwards link will change (free link will change) 
+- summerize yesteray session -- done 
+- list of data science & ai project -- done 
+- show one AI  project for multiclass clasificaont  - done
+- data type vs data structure  --  done 
+- working on data structured - list 
+- chnage the jupyter theme  -- code 
+- about lab timings (Offlien & Online)
+- q & a 
+=======
+
+to build the project no need to expert in coding
+
+to drive the car no need to machanice enginner , drive care car and skill how to drive 
+
+how to build the project with minimum coding
+-- non technial guye will be fantastic at the end 
+
+tkinter --> this is an gui python libary to visuzlia project 
+---
+DATA TYPE VS DATA STRUCTURE 
+
+EXCEL SHEET -- DATASET (STRUCTURE DATASET ) 
+IMAGE FILE -- DATASET ( UNSTRUCTURED DATASET)  
+SPEECH FILE, TEXT, FILE, AUDIO, STERMIN, API, WEBLOG --- (UNSTRUCUTE DATASET)
+
+MACHINE LEARNING -- SKLEARN ( STRUCUTED DATASET)
+AI -- UNSTRUCTRED DATASTE 
+
+EXCEL SHEET -- COLUMN NAME( NON TECHN)
+
+TECHNI - FEATURE ,ATTRIBUTE, VARIABLE 
+
+DATA SCEINCE QUESITON -->
+
+feature engineering techniq (EDA) 
+(ARGUMENT , PARARMETER)
+  CARS ( -- ALWAY PASS THE ARGUMENT WITH OPEN BRACKET 
+  family(father, mother, son, daughter) 
+  
+  car = audi 
+  
+  data type 
+  
+  cars = audi, bmw, merc, volk
+ data strucute 
+
+
+
+1st time joine -->
+----
+samim
+n q
+mounica
+siva 
+ayushi
+======
+one who enrolled any issue -->
+----
+TypeError: 'builtin_function_or_method' object is not subscriptable 
+
+ask to google or chatgpt 
+
+append() -- Append element, value  to the end of the list
+
+ #indexing -->
+ - forward indexing --> count the number from left to right 
+			indexing always begins with 0 ( forward ( from left)
+- backward indexing --> count the numer from right to left 
+			indexing alway begins with -1 
+			
+slicing --> 
+
+			
+matrix - collection of datastructure
+data strucutre - collection of data types
+data types - int, float,str,bool,coml
+identifer 	
+	
+ IndexError: list index out of range
+ ---
+ :5 ==> (((print the element or value till 5th index)))) but  formaul n-1 || 5 = (5-1) 
+		o/p - till 4th element it will print 
+5: ==> print the element or value from 5th element 
+
+=== one day you do not cunderstanst clased --- 
+-- listen recogind 
+
+- 512gb ssd
+- i5 core | i7 core processor 
+- 8gb | 16gb 
+- 30k
+- window
+- 2gb - 4gb ( google colab)
+
+code to chnage the jupyter themer --->
+-----------------
+import jupyterthemes as jt
+from jupyterthemes.stylefx import set_nb_theme
+
+# Change the theme to Jupyter Notebook ['light', 'dark', 'chesterish', 'gruvboxd', 'gruvboxl', 'solarizedd', 'solarizedl']
+set_nb_theme('chesterish')
+*******5th***********
+- demo session -- completed 
+- list, tuple, range 
+- online team how to connect the app
+- practicle lab for online & offline
+- introduction of every learners
+- i will assign task & project from today onwards 
+- any query 
+=== 
+l.pop() -- Remove and return item at index (default last).
+
+
+frehser, with out cant exist in the it market 
+
+please search , r & d on error 
+when you code you get erro please r & da
+1
+
+30 -- you wiil
+
+l.insert() -->
+by default we can pass only 2 arguemnt 
+
+-- if you sit in mobile wifi
+-- you sitting with good wifi 
+-- datasciecne ( patience| strong minded)
+-- mindset is money 
+-- you come out 
+
+- 2 argument 
+1st argument - indexing 
+2nd argument - value for specific indexing 
+****6th*****
+- worked on tuple datastructure
+
+**********7th***********
+- Range()
+- Set ()
+- Dictionary()
+- Student introduction sheet -- done ( you have to introduce yourself) || save the excel sheet | enter your info) 
+- Students query -- 
+- Assignment for this week 
+- Review
+
+-- when ever any document, task , project which i share to you please download and save to your system
+-- 
+
+range (5) -- when ever we pass 1 argument alwasy it 0 will inclue
+range(10) = range (0,10 ) --- elemnet will not print 
+range (4, 8) -- starting, 8 would be ending point 
+- range we cannot pass 4 argument || we can pass only 3 arguemnt
+1- start 2- end 3-steps
+(start,end,step)
+-- range we cannot pass float as an argument
+-- 
+
+LIST || TUPLE || RANGE -- we are completed 
+
+SET -->
+{} 
+
+while you declaar int dataype-- sort function work  | order
+when you declare multipl datatype - order format is not works
+
+
+- while i explaint 
+-- can i learn this course >???????????
+-- if you run behind job job will run 
+-- if you run behin skiil, learning, practising, understan, +ve thou == job wil lcoe 
+-- 4l ,( 
+
+
+set remove is not works
+
+set discard function will work 
+
+skill & job 
+*************10th*************
+https://nareshit.zoom.us/j/87690736995
+
+frozen set 
+
+all therei account - freezing model 
+
+dictionary data structres -->
+-----------------------------
+
+keys - appel & onion
+values - 200 & 100 
+
+apple : 200 
+onion(5k) : 100 
+
+set - {} | dict - {} 
+
+set or dict 
+
+bydefautl t- dict
+
+server -- system which is on for 24/7 
+we sllep but data never sleep 
+irctc -- 11:30 - 12pm server is do
+
+application server & production server 
+5000 e
+
+4900 -- applicationer server
+100- production server 
+
+
+you need to learn very fast on job
+
+math 
+-->  
+import math 
+
+we have framework -- sklearn (sckit learn) -- datastrucuted + algorithm + math formulas + stats.api ) -- 
+
+from sklearn.tree import decisiontreeclassifier 
+
+decisiontreeclassifier -- math part behind this algit
+
+gini, entropy, ig, 
+how to compeu the tree
+how to creat root node 
+*******11th************
+matrix - collection of datastrucuted 
+
+wipro, acce, verizon--- database  
+
+collection of rows & columns  ===> tables
+
+tables -- strucuted data 
+
+we write sql quer to extrac the data from databased and save in the systeme 
+
+to handle the matrix -- in datascience technology we called this as NUMPY 
+
+
+this is very powerfll tools 
+
+fresher, experience, leader, 
+
+numpy from day 1 - day 100 
+numpy image, speech , video, numy 
+
+every organization the data stored as multidimension 
+
+data + science
+extract the multidimension data from dataase we explore the data is called data analysis 
+
+data anlayst - analyse the historical data from the databased is called data analyst 
+
+till yesterday we used slicing , indexing, list, tuple, set, dict, 
+
+1d , 
+
+numpy functionality -- 217 functionality 
+
+img_to_arr, arr_to_img
+np.arange ( 1st argument alwasy < then 2nd argument)
+
+parameter -- bydefault system given the parameter 
+hyperparamater - user change the system parameter as per user requirement 
+
+
+np.zeros((1,5)) 
+1 row & 5 columns with the values 0 
+
+numpy --> math + array sntax + keras + speech to tes etcc -- very powerfull 
+
+inbuild in anaconda prompt
+once user install anaconda that numpy installed inbuild 
+
+non -technica -- 30 min ( 1 function ) - 217 days 
+									2 function -- 109 	
+									3 function -- 72 ( 2months) 
+									
+									
+									chatgpt 
+									
+
+instagram -- github 
+facebook
+twitter 
+what app 
+
+
+when you do code --
+github, linkedin, stackoverflow, kagge
+
+
+
+
+
+
+
+
+
+****** TASK & PROJECTS *********
+---------------------------------------
+TASK - 1 : Basic Code Class practise ( identifier, data tyep, datastrucuted -- list() )
+TASK - 2 : Python notes from pages --> [[19 to 54]]
+TASK - 3 : Data structure from class explanation .ipynb notebook 
+TASK - 4 : Python progarms towards datascience 
+TASK - 5 : Please share your github link to me ( research and build) 
+-----------------------------------------------------------------
+PROJECT-1 : https://scipy.github.io/old-wiki/pages/Numpy_Example_List.html ( NUMPY FUNCTIONALITY)
+		
+
+-- Rajeshwari admin -- 7337313417 (Online)
+-- Rajesh sir admin -- 7997997808 (Offline)
+
+mon - 
+
+
+
+--POINTERS -->
+---
+- When i explaine please turn off your laptop you can practise later
+- if you join for the first time we are continue demo (20min you can stay with me ) what are the topic which i covered 
+- some of the concept i will explain many time so please dont get new student 
+- no more free demo friday onwards 
+- drop a msg to admin  
+- the one who have any quesiton i will give aces you can talk 
+- regarding any question 
+-- non techniacal, offlien please stay with offline only 
+-- Rajeshwari admin 7337313417 (online)
+
+
+Data science & Ai  FEE * 18000/-* without video
+25000/-* with video
+
+Bank Details :-
+Name: Naresh I TECHNOLOGIES
+Bank Name ICICI
+CA Account no
+111305500637
+IFSC code ICIC0001113
+Ameerpet Branch
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Demo Drive link -->
+-----------------
+https://drive.google.com/drive/u/0/folders/1nl1STopBFgLj3veN4OfgeWCik2GTeMjc
+
+Demo Link: http://zoom.us/j/85707394880
+
+****************************
+Full Stack Data Science & AI @ 10:00 AM (IST) By Mr. Prakash Senapathi 
+Day-1 https://youtu.be/QtupayBkBGo
+Day-2 https://youtu.be/0XCOY6EkSzk
+Day-3 https://youtu.be/n19LGlT8VhA
+Day-4 https://youtu.be/XNaef5REGi4
+Day-5 https://youtu.be/pX8VvkKW2Bk
+Day-6 https://youtu.be/V_uM5zJiy3I
+Day-7 https://youtu.be/-sd5U76n3vw
+Day-8 https://youtu.be/HE758Zs6smA
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
