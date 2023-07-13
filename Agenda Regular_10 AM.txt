@@ -818,42 +818,339 @@ by default we can pass only 2 arguemnt
 - 2 argument 
 1st argument - indexing 
 2nd argument - value for specific indexing 
+****6th*****
+- worked on tuple datastructure
+
+**********7th***********
+- Range()
+- Set ()
+- Dictionary()
+- Student introduction sheet -- done ( you have to introduce yourself) || save the excel sheet | enter your info) 
+- Students query -- 
+- Assignment for this week 
+- Review
+
+-- when ever any document, task , project which i share to you please download and save to your system
+-- 
+
+range (5) -- when ever we pass 1 argument alwasy it 0 will inclue
+range(10) = range (0,10 ) --- elemnet will not print 
+range (4, 8) -- starting, 8 would be ending point 
+- range we cannot pass 4 argument || we can pass only 3 arguemnt
+1- start 2- end 3-steps
+(start,end,step)
+-- range we cannot pass float as an argument
+-- 
+
+LIST || TUPLE || RANGE -- we are completed 
+
+SET -->
+{} 
+
+while you declaar int dataype-- sort function work  | order
+when you declare multipl datatype - order format is not works
+
+
+- while i explaint 
+-- can i learn this course >???????????
+-- if you run behind job job will run 
+-- if you run behin skiil, learning, practising, understan, +ve thou == job wil lcoe 
+-- 4l ,( 
+
+
+set remove is not works
+
+set discard function will work 
+
+skill & job 
+*************10th*************
+https://nareshit.zoom.us/j/87690736995
+
+frozen set 
+
+all therei account - freezing model 
+
+dictionary data structres -->
+-----------------------------
+
+keys - appel & onion
+values - 200 & 100 
+
+apple : 200 
+onion(5k) : 100 
+
+set - {} | dict - {} 
+
+set or dict 
+
+bydefautl t- dict
+
+server -- system which is on for 24/7 
+we sllep but data never sleep 
+irctc -- 11:30 - 12pm server is do
+
+application server & production server 
+5000 e
+
+4900 -- applicationer server
+100- production server 
+
+
+you need to learn very fast on job
+
+math 
+-->  
+import math 
+
+we have framework -- sklearn (sckit learn) -- datastrucuted + algorithm + math formulas + stats.api ) -- 
+
+from sklearn.tree import decisiontreeclassifier 
+
+decisiontreeclassifier -- math part behind this algit
+
+gini, entropy, ig, 
+how to compeu the tree
+how to creat root node 
+*******11th************
+matrix - collection of datastrucuted 
+
+wipro, acce, verizon--- database  
+
+collection of rows & columns  ===> tables
+
+tables -- strucuted data 
+
+we write sql quer to extrac the data from databased and save in the systeme 
+
+to handle the matrix -- in datascience technology we called this as NUMPY 
+
+this is very powerfll tools 
+
+fresher, experience, leader, 
+
+numpy from day 1 - day 100 
+numpy image, speech , video, numy 
+
+every organization the data stored as multidimension 
+
+data + science
+extract the multidimension data from dataase we explore the data is called data analysis 
+
+data anlayst - analyse the historical data from the databased is called data analyst 
+
+till yesterday we used slicing , indexing, list, tuple, set, dict, 
+
+numpy functionality -- 217 functionality 
+
+img_to_arr, arr_to_img
+np.arange ( 1st argument alwasy < then 2nd argument)
+
+parameter -- bydefault system given the parameter 
+hyperparamater - user change the system parameter as per user requirement 
+
+np.zeros((1,5)) 
+1 row & 5 columns with the values 0 
+
+numpy --> math + array sntax + keras + speech to tes etcc -- very powerfull 
+
+inbuild in anaconda prompt
+once user install anaconda that numpy installed inbuild 
+
+non -technica -- 30 min ( 1 function ) - 217 days 
+									2 function -- 109 	
+									3 function -- 72 ( 2months) 
+									
+									
+									chatgpt 
+									
+instagram -- github 
+facebook
+twitter 
+what app 
+
+when you do code --
+github, linkedin, stackoverflow, kagge
+*******12th**********
+we introduce to numpy -->
+slicing, indexing, backward, advance slicing using matrix??
+
+PROJECT--> IPL DATA ANLAYSIS 
+-----------------
+Business -- sports domain 
+10am batch sutdnet  -- > data anlyst in organization 
+ceo & magner, team --> dataset to work ( ipl dataset) || ipl database 
+problem statemnt --> please suggest or give some insight, trends & pattern from the data ??
+
+1st project -->
+
+dataset ??? -- we understand about the dataset 
+
+order : {'C', 'F', 'A'}, 
+
+order c -- c indexing 
+
+stage - 1: data processing using numpy
+
+data analyst -- who analys the historical data 
+			sql,clean the raw data to clean data using python code, eda, ( numpy, panda, matplotlib seaborn , tablea, bi
+busines anlays - who anlayst the business 
+			knowledge about, sql , tablea powerbi, excel, good communiaitgon
+data engineer --
+	also worked historical data -- 
+		api, weblog, ui, htl, webscrappin, sensor --> spark, haddop, bigh data, cloud 
+data science --
+		review the historica data find the patter, build the modle, using help of model he prediction 
+		python, sql, ml, eda, stat, ai, nlp , dl, openc, chatgpt, genai, etc ,open ai , yoleov , python, =========
+			
+
+data 
+strucuted data -- supervised learning - labledl datatype
+unstructe data - unsuper learng - unlabled datatype
+semistrunct data - combination of both 
+reinforcemtn learning -- adv, openAi ( chatgpt, dall e2, langchani, llm model, born ,etc.. research/_ ) 
+******13th*****
+matrix --->
+
+data analyst you need to analyst the historical data and give a solution , and expleint the manamger
+pattern & insight of the data 
+
+next step we need to visulaize the data 
+
+how to viszulaiton 
+
+matplotlib --> we used to visulize the data 
+
+
+ipl -- 20 cr
+
+ipl 5over -- excel 
+visualzionat -- very very import 
+
+
+import warnings
+warnings.filterwarnings('ignore') 
+
+-- this code would help to ignore os update error 
+ 
+ word document -- 
+ correct word -- red line 
+ 
+ PLOT THE VISULZAIOTN -- NUMPY + MATPLOTLIB 
+ 
+ NUMPY + MATPLOTL
+ 
+ PLOT THE GRAPH - EXCEL 
+ 
+ PLOT THE GRAPH - MATPLOTLIB - PYTHON 
+ 
+ PLOT THE ADVANCED GRAPH -- SEABONR -- PYTHON 
+ 
+ PLOT THE GRAPH USING R -- GGPLOT 
+ 
+ PLOT THE GRAPH IN DATABRICKS -- BIG DATA ( INBUILDING) 
+ 
+ PLOT THE GRPAH USING AZUR ML -- VISULAIIN ( INBUILD)
+ 
+ WALMART== GRAFFAN, PROMETUS 
+ 
+ JIOLIVE --> LIVE (STREAMING) 
+ 
+ GOLANG -- POPULAR (RELIANCE )
+ 
+ linestyle or ls: {'-', '--', '-.', ':', '', (offset, on-off-seq), ...}
+ 
+ '-', '--', '-.', ':', 'None', ' ', '', 'solid', 'dashed', 'dashdot', 'dotted'
+ 
+ =============    ===============================
+character        description
+=============    ===============================
+``'.'``          point marker
+``','``          pixel marker
+``'o'``          circle marker
+``'v'``          triangle_down marker
+``'^'``          triangle_up marker
+``'<'``          triangle_left marker
+``'>'``          triangle_right marker
+``'1'``          tri_down marker
+``'2'``          tri_up marker
+``'3'``          tri_left marker
+``'4'``          tri_right marker
+``'s'``          square marker
+``'p'``          pentagon marker
+``'*'``          star marker
+``'h'``          hexagon1 marker
+``'H'``          hexagon2 marker
+``'+'``          plus marker
+``'x'``          x marker
+``'D'``          diamond marker
+``'d'``          thin_diamond marker
+``'|'``          vline marker
+``'_'``          hline marker
+=============    ===============================
+ 
+ xticks - x-axis 
+ yticks - y-axis 
+ 
+ plt.legend() -- Automatic detection of elements to be shown in the legend
+
+
+  ===============   =============
+        Location String   Location Code
+        ===============   =============
+        'best'            0
+        'upper right'     1
+        'upper left'      2
+        'lower left'      3
+        'lower right'     4
+        'right'           5
+        'center left'     6
+        'center right'    7
+        'lower center'    8
+        'upper center'    9
+        'center'          10
+        ===============   =============
+		
+listen and go 
+listern, pract
+
+raw data = clean data 
 
 
 
-Didnt get access to classroom learners -->
---------------------
-kangundhi sravan
-v srinivas sethna
-hardika meshiya 
 
-Didnt get access to recording -->
----------------
-Rahul Debnath
-Sathvik Ganta
-hardika meshiya 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
 
 
 
 
 ****** TASK & PROJECTS *********
 ---------------------------------------
-TASK - 1 : CLass practise ( identifier, data tyep, datastrucuted -- list() )
-TASK - 2 : Python notes from pages --> [[19 to 26]]
-TASK - 3 :  
-
+TASK - 1 : Basic Code Class practise ( identifier, data tyep, datastrucuted -- list() )
+TASK - 2 : Python notes from pages --> [[19 to 54]]
+TASK - 3 : Data structure from class explanation .ipynb notebook 
+TASK - 4 : Python progarms towards datascience 
+TASK - 5 : Please share your github link to me ( research and build) 
+-----------------------------------------------------------------
+PROJECT-1 : https://scipy.github.io/old-wiki/pages/Numpy_Example_List.html ( NUMPY FUNCTIONALITY)
+		
 
 -- Rajeshwari admin -- 7337313417 (Online)
 -- Rajesh sir admin -- 7997997808 (Offline)
 
-mon - 
-
-2pm - 4pm 
 
 
 
---
-POINTERS -->
+--POINTERS -->
 ---
 - When i explaine please turn off your laptop you can practise later
 - if you join for the first time we are continue demo (20min you can stay with me ) what are the topic which i covered 
@@ -879,7 +1176,7 @@ Ameerpet Branch
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Demo Drive link -->
--------------
+-----------------
 https://drive.google.com/drive/u/0/folders/1nl1STopBFgLj3veN4OfgeWCik2GTeMjc
 
 Demo Link: http://zoom.us/j/85707394880
@@ -895,8 +1192,7 @@ Day-6 https://youtu.be/V_uM5zJiy3I
 Day-7 https://youtu.be/-sd5U76n3vw
 Day-8 https://youtu.be/HE758Zs6smA
 
-pythin- eda- saas-- ml -- ai 
-data engineer 
+
 
 
 
