@@ -1114,6 +1114,93 @@ listen and go
 listern, pract
 
 raw data = clean data 
+***14th******
+DATA CLEANSING -->
+fresher , 2y, 7 yr, 15yr lead 
+
+in organization if any one work in datascience project 
+
+1yr - duration - 
+6 months it will take for data claaning only 
+3 months -- model building 
+3 month - testing, deployment, maintaince 
+
+deployment - production server
+								application server
+								
+	
+sap - 45lpa
+
+75 lpa -- it hole 
+
+explain the data cleain project end to end -- ?
+what are the chaalend you face while build th eproject  --
+what are the problem you face dureing deplyment & maintaince, 
+
+data cleaning || data cleansing -->
+-----
+raw data 
+clan data 
+
+convert raw to clean data is called data cleaning method 
+
+column name = attribute = feature 
+
+RAW DATA - if any values are missing then raw data 
+
+how to fill missing number ???? 
+
+feature engineering ??
+variable creation ??
+
+non techniq -- how to do this 
+
+*** PANDAS LIBRARY ****
+
+NUMPY -- multidimension array
+MATPLOTLIB -- VISUALIZATION 
+PANDAS - DATA FRAME 
+
+.pdf -- pdf document
+.excel -- excel formati
+.csv - comma separated value
+.txt - text file
+.xml - xml document
+.ipynb - interactive python notebok
+.py - python note book
+.jpeg - image 
+.png - image
+
+
+dataset -- excel sheeet 
+excel sheet comes from db 
+
+-- whenever you work any dataset 1st thing -- size of the data m& chec the extrenction 
+
+PANDAS -->
+pandas is a software library written for the Python programming language for 
+data manipulation and analysis. In particular, it offers data structures and operations 
+for manipulating numerical tables and time series. It is free software
+
+.shape() - dimension of the datafram or dataset 
+dimesion - rows & columns 
+
+dataset = dataframe 
+
+
+TASK -->
+-- download small file from google can you read three format 
+pd.read_excel -- extenxt .xlcs 
+pd.read_html -- .html
+pd.read_json-- .json 
+
+
+
+
+
+
+
+
 
 
 
@@ -1140,9 +1227,17 @@ TASK - 2 : Python notes from pages --> [[19 to 54]]
 TASK - 3 : Data structure from class explanation .ipynb notebook 
 TASK - 4 : Python progarms towards datascience 
 TASK - 5 : Please share your github link to me ( research and build) 
+TASK - 6 : covert raw data to clean data ( if possible variable creation concepy using python split function) 
+TASK - 7 : read the dataset using help of pandas for (.csv || .excel || .html || .json)
+
 -----------------------------------------------------------------
 PROJECT-1 : https://scipy.github.io/old-wiki/pages/Numpy_Example_List.html ( NUMPY FUNCTIONALITY)
-		
+PROJECT-2 : IPL data analysis with Numpy + Matplotlib 	
+
+
+
+
+----------------------------------------------------------------
 
 -- Rajeshwari admin -- 7337313417 (Online)
 -- Rajesh sir admin -- 7997997808 (Offline)
