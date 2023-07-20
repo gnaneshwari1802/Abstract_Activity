@@ -1193,6 +1193,146 @@ TASK -->
 pd.read_excel -- extenxt .xlcs 
 pd.read_html -- .html
 pd.read_json-- .json 
+****17th******
+PANDAS -->
+-----------
+PANDAS OPERATION -->
+
+PANDAS -- DATAFRAME
+NUMPY - MULTIDIMENSION ARRAY
+MATPLOTLIB - VISUALIZAITON 
+SEABORN - ADVANCED VISUALIZATION 
+
+DATATSET - EXCEL SHEET 
+
+RAW DATA | CLEAN DATA 
+
+DATASET - NUMBER - NUMERICAL DATA (STAT WORD INTERPRECTION)
+						TEXT -- CATEGORICAL DATA ( STATS TERM )
+						NUMBER + TEXT -- SPLIT THE (NUMERIC + CATEOGIRACAL)
+
+how to fill if numerical data are missing in the dataset -- raw data 
+how to fill if categorica data are missing in the dataset - raw data 
+
+what are the imputation technique to fill missing values in the dataset ?? 
+
+.shape -- dimesion of the dataset (rows & columns)
+195 row  
+
+excel vs python 
+excel 
+
+excel data analysis is limited -- excel can reade max ( 1048576)
+
+1050000 -- 2 records are missing . 
+data anlaysis in excel is highly highly impossible 
+python -- 
+df.isnull() - detect missing value 
+df.fillna() - fill the missing value with mean stratery 
+
+
+Descriptiv statististics -->
+Inferential statstistics -->
+---------------
+
+df -- 195 * 5 column 
+
+df.describe 
+-- 
+can you please split the data set to categorical data & numerical data ??
+
+machine learning we will spit the data to train phase & testing phse
+
+legend -- 
+
+xtics - xaxix || ytics - yaxis 
+
+axis = 1 ( bydefault -- column)
+axis = 0 (bydefault  rows)
+
+offlien please visilat 
+
+dont create any whats app
+****18th******
+Lets continue pandas 
+
+data engineer 
+-- offler letter 
+-- another placed robotics engineer ( less) 
+
+HOW TO DEVELOP ANALYTIC SKILL -->
+----
+
+open excel sheet 
+try to understaneac python code 
+
+
+Till now we are discussiong pandas operation and pandas functionality 
+pandas filtering. 
+
+pandas - data frame
+numpyr- multidimension array
+matplotlib - used for visualization
+seaborn - advanced visualaziaton 
+
+Normal distribtuon vs Uniform distribution 
+
+normal distribution 
+
+pandas + matplotlib
+numpy + matplotlib 
+
+uni - 1 | bi - 2 | tri-3 | qudra- 4
+
+univariate analysis -- visualize the graph using 1 variable from the dataset is called univariate 
+
+.distplto -- distribution plot
+.boxplot  -- 
+
+ANOMALY DETECTION -- 
+OUTLIER -- outlier is the point which significanely far away form other data point?
+
+these outlier will impact the ml model a lot 
+
+how to detect outlier ??  visulzation 
+if you detect outlier what you do next step ?? -- 
+did you delate outleri ?? -- no 
+
+univariae vs bivariate 
+multivariate analysis --> will you visualzie multivariate analysis -- heatmap 
+
+linear model plot 
+
+linear regression algorithm 
+
+python --> datascience 
+
+datascece -- data enginer -- 
+
+pytbn -- pyton projec t-0- apply (70)
+1 job - 10lpa (wiseman ment)
+
+- learn 
+- project
+- resume
+- interview
+- give interview then forget 
+- 10 
+- 1st offer (3lpa) 
+- attend interview 
+- a & b 
+- hr a ( coding round)
+-- pic
+-- b 
+- he will clean 
+-- share to a 
+
+
+
+
+
+
+
 
 
 
