@@ -1326,6 +1326,340 @@ pytbn -- pyton projec t-0- apply (70)
 -- b 
 - he will clean 
 -- share to a 
+*****19th******
+KAGGLE.COM
+
+DATA SCIENTIST -- kaggle, google, chatgpt -- friend, god 
+scm |  banking | insu | halthcare| oil & gas | manur | sports | education | -- closed 
+
+how to work from kagge 
+
+jave code, .net. c, c++, sql --- > client 
+
+IMDB rating -- database (imbd datset) 
+
+BANKING 5YR -- 10LA 
+INSURE - 20LPA
+
+INSURANCE --- KAGGLE.COM ( INSUREANCE DATASET) 
+CRICKET DATAST 
+INSURANCE BSUINE -- BUSINESS ANALYSIS S
+
+BAT, BOW, FILE, STUMP, -- 100 COLUMN 
+
+DATASCEINCET - BUSINES ANLAYST ( DATA ANLAYST ) -- HISTORY & BUSINESS THEN PREDICT THE FUTURE 
+****20th*****
+today & tomorrow is online 
+offline student to please dont go to class but you can go to the lab 
+next offline classes is from monday
+
+EDA (Explaratory Data Analysis) 
+------------
+If your not understand then you never ever understanding datascience
+
+datascice -- data -- supervised learning, unsupervised learning, reinforcement learning
+
+supervised learning --> regression, classfication 
+unsupervised learning - clustering 
+
+RAW DATA  -- the data which contain missing value 
+CLEAN DATA -- the data which no missing value 
+
+architecture to process the data before we build predictive model 
+
+data analyst - always worked on historical data 
+data enginer - if the data is too big then always worked on big data tools
+
+every thing you can work on panda 
+
+if the dataset is not cleaned you never predict the future and you never build any ml models 
+
+clean the data from raw data - clena 
+
+to do this process we need eda (explaratory data analysis )
+
+EDA --> 
+-----
+1- variable identification 
+2- univariate anlaysis
+3- bivariate analysis ( corelation)
+4- outlier treatment 
+5- missing value treatment 
+6- variabel transformation 
+7- variable creation 
+
+those above 6 technique we calld as feature enginnering 
+
+1- variable identificaiton 
+
+(family -->1)
+---------
+1- father -- dependent (y)
+2- mother -- independ (x)
+
+math --> (y = x )  | 1 d.v variable & 1 i.v 
+
+simple linear regression algorithm 
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+family -->2
+4 member ( 4 attributes) (4 column name ) (4 features)
+-----------
+1- father - dependent variable  -- y 
+2- mother - independent variable  --- x1 
+3- son (5th grade) - independent variale  --- x2
+4- daughter (3 rd grade)  - independent variable  --- x3
+
+math -->  y = x1 + x2 + x3  
+multiple linear regression algorithm 
+-----
+depdendent variable = target variable = predictive variable = y
+independent variable = non target variabel == non predictive variable  = x
+=====
+variabel identification divide into 2 part -->
+
+- independent variable == non targert -- non predicted varaibe == x
+- dependent variable == target -- predicted == y
+
+Regression -->
+if d.v is continuous then this concept is called regression 
+
+- SIMPLE LINEAR REGRESSION 
+- MULTIPLE LINEAR REGRESSION 
+- POLYNOMIAL REGRESSION 
+- SUPPORT VECTOR REGRESSION 
+- DECISSION TREE REGRESSION
+- RANDOM FOREST REGRESSION 
+- KNN REGRESSOR 
+- L1 REGRESSION 
+- L2 REGRESSION 
+- TIME SERIES ANALY 
+
+continuous - 10,20.30,----
+petrol price - 80,90,100....
+gold price ---
+car sale cost --
+stock 
+
+resume procecet you can create with this algorithm --.
+-----------
+oyo rooms -- room cost you will predction 2yrs
+businss - what is amout dad can income after 2 yr 
+sale focastiing
+fashion -- what the cotton, dress are predictionb 
+stock market 
+bit coin
+currency rate prediction 
+whic product has highest busines see
+
+classification -->
+
+if d.v (y) is binary then we implement classification algorithm 
+binary ( data -- t/f || y/no || 0 or 1 etc || 
+
+classificaiton algorithm -->
+
+1- logistic regression 
+2- support vector machine 
+3- decission tree
+4- random forest
+5- k-neearest neighbour
+6- naive bayes ( baysian theorem)
+7- adaboost
+8- xgboost 
+
+realtime -->
+-- +ve | -ve review 
+-- win | loss
+-- real face | fake face
+- dog | cat 
+-- hit | flop
+-- you will get profit | loss
+- spam | not spam 
+-- earthquak | not 
+- up | download
+
+
+we learn all the alorimt , then build model with help of sklearn
+
+
+if you dont know the history you never predict the data 
+
+if you dont know the attribute then you never prediction 
+
+if you eda then you never build ml model 
+*******21st********
+variable identificaiton 
+
+
+never ever build the model with irrelavant attribute 
+if you build the model with irrelavant attribute -- overfitting proble, 
+multicolinearity problem occurs --- high error rate and less accurary 
+
+
+-- how to choose irrelavant attribute in the dataset ???? 
+
+-- being a data science look for valid & relavant attribute 
+
+st hr || sl | he | w | pas
+
+banking
+nsu
+healt 
+
+business knowledge 
+-- data base access -- kt ( knowldeg )
+-- from kagge.
+
+-- As the example which i give you right now (everybody know the business) 
+then only find out d.v & I.v is easy 
+
+-- real tiem organization -- fashion 
+
+fashion db -- 10000 attribute 
+data science -- 6mont - 1yr 
+
+1 day || 10k attiute -- optimal attribute ( more time) it take more times
+
+
+BUSINESS UNDERSTANDNG  --- BUSINESS ANLAYSIS 
+DATA UNDERSTANDING --- DATA ANALYSIS 
+DATA SCIENTIST -- 
+
+VARIABLE IDENTIFICATION -->
+-----
+- d.v (y) = target variable | predicted variable 
+- i.v (x) = non target | non predicted variabel 
+- relavant attribute 
+- irrelavant attribte 
+variable identificat we are completed ???? 
+
+2- univariat -- > plot the graph using one variable 
+
+3- bivariate --> plot the graph using 2 variable 
+
+corelation -- relation betwenn 2 variable is coreateion 
+-1 to 1 --> range of the corelation 
+
++ve corealton  ===> 0 - 1
+-ve corelation ====> -1 to 0
+no corealtion ====> 0 (neither +ve nor -ve)
+
+machine learning -->  complete math + stats 
+sft - price -- > +ve
+before you build ml model you need to plot the graph with d.vaide
+i.v & d.v --> -ve corelation ( high error less accuracy) 
+
+4- outlier or anomaly detection 
+-- signification value whihc is far from other observation 
+-- we detect outlier based on some visulization 
+-- once we detect outlier ( drop an email explain can i delate or keep aside)
+
+********24th**********
+regression projects -- regression algo
+classificaiotn project -- classification algo 
+clustering project -- clustering algorithm 
+
+dataset - numerical attribute + categorical attributes 
+raw data -- numerical attribute will be missing 
+categorical data -- value would be mising
+
+
+how to fill missing values ?
+
+2days (thur & fred) -- ml easy 
+abse -- 4month ( session will bores)
+
+when we lot of numerical values are missing ?? how do youfill it
+using python code (.fillna) | pyuthon
+- from sklear.imputer import simpleimputer (ml code packages) 
+
+
+fill the missing numerical attribute -- 
+mean strategy | median strategy | mode strategy
+122 column | 2cr row
+
+mean,median & mode (if numerical values are missing)
+if categorical data missing ( model strategy or knn strategy)
+
+k-nearest neighbour  
+
+5- MISSING VALUE TREATMENT
+numerical values -- mean| median|mode
+categorica -- mode | knn 
+
+6- variable creation (IMPUTATION TECHNIQUE)
+convert categorical data to numerical data -- dummy variable || one hot encoder
+convert the categorical value to numerical in form of binary -- label encoder 
+
+7- variable tranformation ( categorical we removed then transfered to numerical value)
+
+missing value treatment - mean, mode, middian
+imputation technique -- dummy variable | one hot encoder | label encoder 
+
+EDA - FEATURE ENGINEERING
+
+Practicle -->
+take most of time to clean the attribute (every individual attributes) 
+6 attribte == 
+
+.isnull() -- to check missing value in the dataset 
+practicle (if you find true -- missing value) 
+
+regular expression -- 
+comman
+\t  | \w, \s 
+
+str.replace(r'\W','') -- remove non-word charat
+in the practicel (-- ^, #, *)-- eliminate -- get cleaned string 
+
+str.extract('(\d+)') -- extract numerical string 
+
+sklearn. 
+
+.astype -- it will convert the datatype to numeric or categoricla
+
+- how split the data to i.v & d.v 
+
+how to convert categorical data to numerical 
+
+pd.get_dummies -- pkg will convert automiatcal to categorical to numerical 
+
+what is the technique ()
+with practicle understand. 
+
+how to take out the raw string , cleain
+-- dataset 
+-- raw dataset 
+-- data cleiaing to proper formation 
+- eda techniacal
+- stat 
+- based on the business split the data to dv | iv
+- dv is bianry (classicatin ) | contnou(regress)
+- ml technique
+- test the ml model 
+- deployment 
+- mantai 
+-- retrain the model new data 
+
+1 -- pivot table in python --> PivotTableJS 
+2- pytube
+3- Git-story
+4- Bashplotlib
+5- MITO
+6- black
+7- Manim
+
+pivot | pytube | git-story | bashplotlib | mito | black | manim
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1368,11 +1702,18 @@ TASK - 3 : Data structure from class explanation .ipynb notebook
 TASK - 4 : Python progarms towards datascience 
 TASK - 5 : Please share your github link to me ( research and build) 
 TASK - 6 : covert raw data to clean data ( if possible variable creation concepy using python split function) 
-TASK - 7 : read the dataset using help of pandas for (.csv || .excel || .html || .json)
-
------------------------------------------------------------------
+TASK - 7 : Read the dataset using help of pandas for (.csv || .excel || .html || .json)
+TASK - 8 : 7 new python libraris for reseach 
+ -----------------------------------------------------------------
 PROJECT-1 : https://scipy.github.io/old-wiki/pages/Numpy_Example_List.html ( NUMPY FUNCTIONALITY)
 PROJECT-2 : IPL data analysis with Numpy + Matplotlib 	
+PROJECT-3 : COUNTRY GDP ANALYSIS USING PANDAS 
+PROJECT-4 : IMDB RATING ANALYSIS USING PANDAS ( till 44 line)
+PROJECT-5 : MATPLOTLIB 
+PROJECT-6 : EDA PROJECT ANALYSIS (from raw data to clean data using python & eda technique)
+
+
+
 
 
 
