@@ -1650,40 +1650,229 @@ how to take out the raw string , cleain
 7- Manim
 
 pivot | pytube | git-story | bashplotlib | mito | black | manim
+*****25th****** 	
+completed eda
+
+movie rating analyiss with seaborn and pandas
+
+to check any packaged version -->
+
+pkgname.__versioon__
+
+sometime packages are incompatible
+pkg.__version__	
+pip update numpy
+./describe - descriptive stats
+	
+	
+	joint plot --> sns 	
+	kind : { "scatter" | "reg" | "resid" | "kde" | "hex" } 	 		
+normal distribution == gausian distribuion == bell curve == 0 skewness  == 0 symmetrry =binomail distribuion 
+everytime we should consider this graph only.
+
+histogram --> sns.distplot
+
+uniform distribution vs normal distribution 
+
+{darkgrid, whitegrid, dark, white, ticks}  	
+
+director & produce (AB) --
+559 movies 
+due to covid ( 50million)
+
+AB -- software compnay 
+can you provide som suusteion which domain if we create movie we should gain profit?
+AB -- RUS, GERM 
+
+AB -- NIT 
+DATA ANALYST 
+
+YOU GIVE SOME INSIGHT ( DRAMA) 
+-- 50 MILON THE -- IF THEY GAIN MORE PROFIT 
+
+CUZ OF 
+
+ORGANIZATION HAS NO CLIENT 
+ORAGNIZ PU U IN BENCH 
+
+.legend() -- automatic detect the colors
+.hue = legendn
+*********26th********
+matplotlib & seaborn -
+
+1` practi in class
+1 for homes work -- 1000 grph 
+
+man- insight, 
+
+- sir as per the graph which i plotted 0- you need to focus on auddience rating 
+-- desnsei highest toward audentiation 
+-- based on historica they alrey craet the movies ( foucus )
+- less move on 200-300 ( > 50$ ) 
+
+subplot -->
+----
+facetgrid -- Multi-plot grid for plotting conditional relationships.
+			to draw multi plot we used facetgrid
+to use -2 or 3 grah - . subplot()
+
+.map --> Apply a plotting function to each facet's subset of the data.
+
+action -- yes 
+adventrue -- no 
+comedy - yes
+drama  - yes 
+horror - yes
+romannce - no 
+thriller - no 
+
+-- action | comedy | drama | horror 
+-- sir final conuse -- 50$ movie, audiene rationg, action 2 comedy
+--- AB -- some other client 
+-- russin, che, japa, fre, gern
+-- more client cuz of your work 
+- company hire new emply 
+-- 10 empoy - 9 ( 1empoy 
+
+-- project - movie raign analysis using pandas, seaborn, with undersatnin, usecase 
+****27th*****
+resume project -->
+---
+x student she went for an interview| 
+paypal - elon musk 
+
+she sent to me those question.
+
+1st round of interview --> how to present your solution 
+AB -- data sceince team exist
+covid --> 
+govt declear 3-4 month you no need to pay home (loan pay loan later) 
+-- default customer --- customer who doesnot pay thier emi continuose for 6mont or 3 month defaulter
+
+domain of the project - banking 
+problem statem - being data analyst you need to find out who is defaulter from the historical data and why they are defaulter
+solution -- data science yet | data analysis 
+10am --
+we analysis risk factor bank 
+bank will give loan to country earthquake
+bank will be in suffer -- risek 
+
+capstone project -->
+risk analysis for bank| insuran | healthcare | scm | manu | etc. 
+risk factor prediction using ml technique 
 
 
+real time project -->
+
+wipro ( wipro ) 
+-- accent --when they note give no real time project exist 
+-- wipro similar type of column we can find in kaggle.com 
+-- same project 100 then company can find out 
+-- tcs | wipro - 500 employ are working 
+-- difference 
+*******28th*******
+Resume project -- 1month to complete (without deployment)
+
+Today Agenda -->
+-- EDA project 
+-- seaborn project 
+- Intorduction sql 
+
+no theory for seaborn, matploltlib, pandas 
+
+.nunique() 
+.unique()
+.value_count()
+
+how to apply group by function in the dataset using python code -->
+
+how to find out which attribute are highly corelate with dv ==>
+correlation = df.corr()
+correlation['target'].sort_values(ascending=False)
+eda -- concept learned( code to find correl amoung the variable)
+complete datasciec youtube|variou|us |uk | --- combeaskj| 
+knowldege -- started
+---- seaborn---
+
+work on project (80%
+i will explain statstics 
+after completes again reopen eda, seaborn (100%)
+____ SQL (sequel)_____
+
+project -- sql towards data analysis or sql towards datascientist 
+
+project -- mid expertise towardsdata analys 
+
+dataset -- analysis in sql vs analys in python 
+practically i will show you how to extract raw data from the database -- vvvvvimp 
+
+DA -- sql, python, excel, eda, commun,tableau 
+BA -- sql, about business, com, tbaleu, poperbi|tableau  
+
+BUSINESS ANALYSIS -->
+---------------
+what is database --> Data stored in server
+- what is data ? attribute of the business 
+
+story -->
+------
+alex -- europe 
+game -- football is famouls
+
+espn star sports -- hired alex as data analys with high pay for cricket domain
+alex - 0 knowledge about cricket business or cricket domain 
+
+alex joined company 
+
+cricket --> bat | bow | fielding | cath |emipire| sturmp----- (1000 atrribute) 
+
+- database credential ( login & Pwd) 
+alex login to the database 
+next step -- he will try to understan every column or every attribute 
+
+alex 1000 atrrence crcicket he can learn 
+
+Indetail analys 
+
+banking -- healthcare -- insure 
+
+domain might be different
+attribute might be different 
+methods, concept, algorithm, are same 
+
+Understanding each & every attribute 1st step
+2nd step identify proper dependent variable 
+3rd step based on dv you can choose regression, classificaiotn, clustering 
+*********29th************
+sql -->
+----
+1- Download the DB ( I shared the db to you & please download from google classroom)
+2- please download the software --> https://dbeaver.io/download/ ( please download db from given link )
+3- Open the software - view the software
+4- discussed business classfication use from UCI machine learning reposiratory 
+5- open the dbeave - click on plugin - you can connect to sqllite 
+6- it will ask for db path location -- enter the path - finish it 
+7- left pane - you can view - sqlitetest.db 
+8- expand to sqlitetest -- expand - table - column - you can find all the attribute which discussed in business 
+9- right click on sql.db --> create a new script
+10- we write simple basic query to get the raw data from the database 
+11- lets import the data becuase as it raw data we need to clean it
+12- select on white gap between grid & destination -- right click - export data
+13- export to csv - next - next - change the path location to store the data - proceed
+14- you have dataset now 
+15- you can explore the data using sql || you can explore the using python 
+16- please prepare comparsion sheet for sql & python 
 
 
+https://www.w3schools.com/sql/ -- for sql reference 
+https://www.w3schools.com/python/ -- for python reference 
+https://archive.ics.uci.edu/dataset/603/in+vehicle+coupon+recommendation (dataset information)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
-
-
+SERVER  - collection of database
+DATABASE - collection of schema
+SCHEMA - collection of table 
+TABLE  - collection of datatype
+datatype - int | float | char |varchar etc
 
 
 
@@ -1711,6 +1900,13 @@ PROJECT-3 : COUNTRY GDP ANALYSIS USING PANDAS
 PROJECT-4 : IMDB RATING ANALYSIS USING PANDAS ( till 44 line)
 PROJECT-5 : MATPLOTLIB 
 PROJECT-6 : EDA PROJECT ANALYSIS (from raw data to clean data using python & eda technique)
+PROJECT-7 : MOVIE RATING ANALYSIS WITH PANDA,SEABORN,USECASE, PROBLEM STAMENT, SOLUTION
+PROJECT-8 : IRIS DATA ANLYSIS (it takes more time)
+PROJECT-9 :  RESUME PROJECT ( it takes more time || please work with understanding by individual) 
+PROJECT-10 : SEABORN -- Fifa Data analysis project 
+PROJECT-11 : EDA -- Hear disease Project 
+PROJECT-12 : Sql towards data analysis || sql towards data science
+
 
 
 
