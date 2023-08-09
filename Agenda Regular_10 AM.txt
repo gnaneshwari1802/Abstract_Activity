@@ -1873,6 +1873,569 @@ DATABASE - collection of schema
 SCHEMA - collection of table 
 TABLE  - collection of datatype
 datatype - int | float | char |varchar etc
+*****1st Aug*****
+- what is the process to collect or extract raw data 
+- what is data acquiston strategy
+- data ware housing team, ( tehy will send the report to data sceince team )
+- you need to right query to extract the data from the db
+- raw data
+- data cleansing from raw data - clean data using  sql or python is possible. 
+- resume project -- please work on those things . 
+
+groupby using sum ( average ) we  wll discus in spark 
+--- so request 10am batch team to please work on resume project & sql workshop 
+
+BUSINESS  ANALYSIS -- ANALYS THE ATTRIBUTE OF THE DATASET(COLUMN name of given dataset) 
+			with the help of some software like -- sql, ms office (excel, powerpoint,word), presentatin skill, tableau | powerbi) 
+
+DATA ANALYSIS -- Analyse the historical data only and again understand the attribute of the dataset, find the key insight, 
+	suggestion from the ploted graph using --> pyhon, sql, eda, tableu, powerbi, office + business anlaysis
+	
+^^^^^^^^^^^^STATISTIC ^^^^^^^^^^^^^^
+1- POPULATION & SAMPLE -- Done
+2- TYPE OF DATA -- Done
+3- DESCRIPTIVE STATS 
+4- INFERENTAIL STATS 
+5- ADVANCED STATISTIC 
+6- STATISTIC INTERVIEW QUESITON (170) 
+---
+why stats is required to learn data science
+how stats is integrate to machine learning regression algorithm
+how stats is integrate to ml classificaiotn algorithm
+
+1- population & sample 
+-------
+- population - sample == sampling technique
+- population formula 
+- key characterstic of population is --- PARMETER
+---
+sample - population == infernence technqiue 
+- sample formula 
+- - key characterstic of population is ---- STATISTIC 
+-- 
+in datasceince whatever dataset we are going to build the model that dataset is going to sample 
+99% we are using sample formula 
+-- 2. TYPE OF DATA --
+- CATEGORICAL --  text, audi, bmw , etc
+
+Numerica -->
+discreate -- sat score 100%
+continuous -- gold rpice,stock market and everything
+
+Qulitative 
+Nominal -- is not an ordered format ( four season)
+Ordinal -- orderd format rate of the meal ( 1, 2, 3, 4, 5)
+
+Quantitative data -->
+interval -- 50-200 -- we dont get any zero values hear
+ratio -- > ratio we will get zero values 
+
+-how to visualize categorical data & numerical data 
+-car sold - freququency in statistic 
+many data anlaysis job, manger, mostly looking for distribution table 
+
+how to frequecy distribution table -->
+- dataset 1atrribute is given & 5 interval is given
+- then we are using formulat to computer frequency distribution table
+
+either you cat or numer -- the best way to visualize the data is graph, matplotlib, seaborn
+****2nd*****
+Agenda ->
+----
+- descriptive stats 
+- Got placed 7.5lpa ( 3.5lpa)
+- 21 student placed very soon i will show the offers to you 
+
+-- 1.15 month ( 
+-- 3month 20 studnet 
+
+sampling technique -- pop - sample 
+inference technique - sample - population 
+
+3- Descriptive stats --> .describe ( mean, mode, median, sd, quartile, count, min & max)
+---
+-measure of central tendency
+-measures of assymetry
+-measure of variability 
+- measuer of relationship 
+--
+
+measure  of central tendency 
+mean | median | mode
+
+measures of assymetry 
+skewness | kurtois 
++Ve skew
+-ve skew
+no skew
+
+measure of variability 
+varaince 
+standard deviation 
+coeffiecient of variation 
+
+measure of relationship
+covariance
+linear corelation 
+
+from today onwards i want to create formula sheet till day end 
+math formula,
+
+measur of assymetry -->
++Ve skew --  mean > median  & mode === (data stays at left & outlier is at right )
+0 skew -- mean = median = mode ( data stays at cent & we dont have any outlier) 
+			normal distribution = bell curve = gausian distribution = binomial distributeion 
+-ve skew -- mode > mean & median == data stays at right & outlier is at left 
+
+kurtois -->
+
+skewness vs kurtois 
+
+skewness is a measure of symmetry or asymmetry of data distribution,
+kurtosis measures whether data is heavy-tailed or light-tailed in a distribution.
+
++ve skew = +ve kurotis = leptokurtic  == (>3)
+-ve skew = -ve kurtoise = platykurtic  == 	(<3)
+0 skew = normal distribution=  mesokurtic (=3)
+
+Data can be positive-skewed (data-pushed towards the right side)  
+negative-skewed (data-pushed towards the left side)
+zero skews ( data stays at center)
+
+measure of variablity -->
+---
+population mean - Meau 
+sample mean - x bar
+
+-- variance - spread of the data around the mean 
+population variance  - sigma square 
+sample variance - s square 
+-- STANDARD DEVIATION
+
+POPULATION SD -- root of sigma squer 
+SAMPLE SD -- root of s2 
+
+coefficient of variabel = standard deviation | mean
+
+stats.api == 
+
+from stats model import stats.api 
+machin learning
+
+measure of relatioship -->
+--
+covariance - -1 to 1 
+statistical term of corelation is caled covarianced 
+
+descriptive stat is completed 
+one dataset -->
+*****3rd*******
+
+tomorrow session is online. i will share the link 
+
+you do get these quesiton how to compute iqr 
+
+12 - yr 
+
+25% -- 3month -- planing -- quary incom, expances 
+
+manufactureiong 
+
+product bases
+
+l&t -- 300000 cr 
+
+quartry ly ( 10000) 
+
+loc & .iloc --->
+descriptive statistics is completed ===>
+
+-- INFERENTIAL STATS --
+------
+PROBABILITY & DISTRIBUTION 
+
+COIN - 2 SIDE -
+DICE - 6 SIDE - 
+PROBABILITY OF GETTING 1 -- 1/6 == 0.17
+probabliti gettign 2 -- 1/6 
+
+
+roll a 1 dice we get - uniform distribution
+
+2 dice -->
+if i roll 2 dice what is probabiliyt of gettting 1 --> 
+
+machine learning 2 algorightm which is probability algorithm 
+
+logistic regression (logit or maxent)
+naive bayes algorithm (baysian theorem or bayes theorem)
+help of probability distribution are generated. 
+
+--- standaridatzation --> convert normal distribution to standard normal distribution 
+------ z-score 
+
+normal distribution if we convert mean - 0 & sd - 1 
+this is callwed standarization 
+time series we called this concept as white noise 
+in time seires dataset how to check whitenoise? 
+
+standarizaiton === standardized variable === z-score 
+
+stats = time seres ( regression ) - ml tecnique 
+
+z-test vs z-statistica test vs  z-score vs z-table 
+
+z-score == (original vale(xi)- mean(mu)/sd) -- feature scaling technique machine leanring 
+
+ feature scaling -- (normalization & standarization )
+ 
+ feature engineering vs feature scaling 
+ eda vs standarization 
+ 
+ where we implment this in macine learning |  feature scaling) | time series 
+ 
+ Standard error --> sigma / root n 
+  --------- 
+  practicle of descrptive stat
+  probabiliyt 
+  distribution 
+  z-score 
+  time series
+  ml time series algorithm (white noise)
+  feature scaling technique) 
+  standard error 
+  
+  confidence interval --->
+  ------------------
+  hyd - 100 resturent 
+  food lover form mumbai he visit to hyd 
+  test the 95 resturent food -->
+  
+  statist use case -- 95% confident i am saying range of food is 100- 1000
+  status -- 99% hotel confident cost of food is 50- 1500
+  
+  confidence level = 1- alpha 
+  
+  confidence interval is divide into 2 part 
+  
+  population  -- z-test(populiaton variance known)
+  sample -- t-test  (population variance unknown) 
+ ****4th***
+ lets test this datascientist salary with the confidence level of 95%
+ 
+ error - 5% ( 5/100) = 0.05
+ 
+ in the formula - z-test
+ z-tablle -- is the stattistical table which created by statitsticon for meausering the test cases
+ we are using z-table values to compute z-test 
+ 
+ z-statistical test = z-test | z-score | z-table 
+ 
+ if the dataset is too big -- can you do these test in manually ( stats.api)
+ stats.api ( residual, ols, stats model )-- formulas are inbuild and you get the o/p
+ 
+ populiation varaiance is known = z-test 
+ 
+ T-TEST --> population variance unknown == student's T-distribution
+ -------
+ - what is the dataset size you worked in your project ?
+  - extract the data from 2016- 2023 yr from the db 
+  201- 2022 -- use the ddata from tringing
+  2023 - weuse the data for testing 
+  
+  
+  AI WORKSTATION | 
+  
+  5 EMPLY -- AACCES TO WORK THIS WORKSTATION 
+  SERVER 
+  
+ 
+- which software you are usning to build the machine learning? 
+****7th****
+AGENDA FOR TODAY-->
+--------
+hypothesis testing 
+type 1 error 
+type 2 error
+p-value 
+central limit theorem
+Advanced stats 
+
+
+-- How stats would connect to machine learning regression (theory)
+-- how stats would connect to ml classification (theory)
+
+-- bng apple are expensive (hypothss)
+-- 1apple cost is >200 (statment ) 
+
+hypothesis testing 
+
+where ever we have data - then can do hypothesis
+where ever we dont have data - no  hypothesis
+
+HT ->
+- NULL HYPOTHESIS (H0)
+- ALTERNATIVE HYPOTHESIS (H1 or Ha)
+
+if average ds salary = $113 |||| H0 == $ 113 (accept the null hypothesis)
+if average ds salary !=  @113 || H1 !== $113(REJECT THE NULL HYPOTHESIS)
+
+MOST OF STATICIAN alway want to reject the null hypotheis) 
+
+-- ml -- supervised & unsupevsed
+
+supervise -- regression & classification 
+
+after we build regression model  
+
+reinforcemt  -- generative ai |||open ai 
+
+after we build regression model we need to test the model -- performance measures 
+- what is performance measure in regression --- R2 & ADJUSTED R2 
+- what is performance meauwse of classifcation -- confustion matrix ( type 1 & type 2 error )
+
+type 1 error & type 2 error born from hypohthies testing 
+
+-- hypothesis testing
+-- null hypothes  & alternative hypotheis
+-- when to accept the null hypohthies & when to reject the null hypothesis
+-- what is model or logic 
+-- performance measure of regression -- r2 & adjusted r2
+-- performance measure in classifiction - confustion ( type 1 & type 2 error)
+
+TYPE -1 Error -->
+------
+how these concept would help to classify in real time project ( happy or sad)
+hot or cold 
+up or donwn 
+
+type-1 error ===> Reject the true null hypohthies == False +ve 
+type-2 error ==> Accept false null hypotheisis == False -ve 
+
+CONCEPT WE WILL DISCUSS ONCE AGIAN AT ML - CLASSIFICATION ( CONFUSION MATRIX)
+confusion matrix -- TP | TN | FP | FN (4PART)
+
+P-VALUE == 
+95% -- 5% -- 5/100 == 0.05 
+
+p-value is very important to eliminate irrelavatn attribute from the dataset 
+
+dataset -- stats.api -- sl vlaue < 0.05 ==> reject the null hypohthies || remove the attribute from the dataset 
+
+sl <0.05 -- we reject the null hypohthies
+sl>0.01 -- we accept the null hypotheis
+
+cental limit theorem -->clt
+---------
+sample should alway be greater then > no. of observation 
+-------
+****ADVANCE STATISTICS ******
+simple lineare regression == (y = mx+c) - 1 d.v & 1 i.v
+multiple linear regression  == (y = m1x1 +m2x2 + c)
+
+(y = mx + c) || ( y^ = mx +c )
+y= mx+c
+c - constant 
+m - slope( regression line connect to the y part ) you can made angle (slope)
+- difference between 
+(actual value - predicted value = error ) 
+error = residual | ols (ordinary least squard) = loss function = cost function 
+***8th****
+types of data
+descriptive , inference, 
+OLS (ACTUAL - PREDICTED) = LOSS | COST FUNCTION 
+
+ADAVANCED STATS -->
+-----
+ANOVA (Analysis of variance )
+- R2 
+- Adjusted R2
+- Regression table 
+
+
+ANOVA (Analysis of variance)-->
+--------
+- sst (sum of square total)
+- ssr (sum of squaer regressor)
+- sse (sum of squear error)
+
+SST = SSE + SSR 
+--- R2 
+
+performance measure for regression -- r2 
+after build the regression model -- we need to checek weather we build good model or not 
+
+r2 = ssr / sst 
+
+2cr records -- stats.api ols ( r2 values) 
+range of r2 -== 0 -1 
+
+good model 
+0.6-0.99 -- 
+
+r2 very import -- when we build ann model 
+loss function 
+
+regression loss  -- mae, mse, logloss 
+classificaiotn loss 
+
+when we have more indenpnedine variale - mutiple linear regression -- 
+adjusted R2 
+0-1 
+
+-- perfomance measure of regression 
+-- what is the process of regression model evalution 
+-- to find the best regression model 
+
+r2 & adjusted r2 shoud be 0-1 range
+r2 > adjusted r2 || adjusted r2<r2
+
+-- anova 
+- sst | ssr | sse 
+- sst = ssr + sse
+r2 = ssr/sst
+r2,adjust r2 range 0 - 1
+r2> adjusted r2 
+
+---- REGRESSION TABLE 
+-- after build regression model we will build the regression table 
+-- blueprint of regression table
+
+-- busines might be diffence
+- method, numpy, panda, matplotlib, seaborn 
+
+
+mahcine learince concept is remaing, algoirtm same 
+
+- python 
+- r2
+- pyspark
+- cloud 
+- databrick 
+- snowflke
+- aws 
+---- statstics towards datascience is done----
+
+----MACHINE LEARNING -----
+
+mahcine is learning from the historical data 
+generat pattern or logic or model 
+model when you deploy model will predict
+
+stats practicel -- multiple linear regression 
+
+data analysis & business anlaysis job - you can apply now 
+
+till today --- learn who dindt practise or dint learn any thing leave it. 
+--- today on wards if you concentrare and practice only ml prar 
+
+ml engineer job 
+- data anlaysis  python, numpy,panda, plt, sns, eda, sql, tableau
+- busines analysis -- sql, excel, eda, business ( kaggle.com) 
+- machine learning engineer
+- NLP engineer.
+- deep learning engineer
+- computer vision engieenr
+- data scientist 
+
+MAHCINE LEARNING -->
+----
+1- TRAINING PHASE 
+2- TESTING PHASE 
+
+X  - (x-train || x-test)
+y - (y-train || y-test) 
+
+train the model --> x-train + y-train === (M1) GENERATE BASED on historical data 
+
+test weather m1 is accuract or not 
+
+we pass x-test recrod to M1 
+
+M1 predicted som resule --- y-pred (prediction table)
+
+y-test vs y-pred (generate accuracy) 
+
+we build the model on historical data 
+model predict the future tomorrow data 
+******9th*********
+
+all the codes we going work in spyder 
+spyder -->
+till today if you are not done any project just leave it 
+---
+machine learning -->
+mahcine feed thd data to the machine
+
+write the quesry to get the dataset 
+lets load the dataset
+mahcine learning will do predictive model 
+model will predict the future 
+
+HOW TO WORK WITH SPYDER -->
+----
+SMALL DATASET 
+
+DATA PREPROCESSING -->
+-----------------
+MAHCINE LEARNING -- SKLEARN 
+
+SKLEARN -- python 
+mlib - pyspark 
+azur ml -- azurl cloud
+
+https://scikit-learn.org/stable/ ---> refer for advanced updates 
+
+data preprocessing-->
+----
+1- dataset 
+2- business understandin
+3- attribute understanding
+4- identify dv & indendent variable 
+5- data cleaning for indenpendve variable & dependent variable
+6- missing variable treatment for independent variatble
+7- regress or classicaiotn 
+8- split the data to train & test
+9- x-train & y-train 
+10- model building
+11- ytest vsy-pred
+12- test the future recrods 
+13
+
+SimpleImputer(\*, missing_values=np.nan, strategy="mean", fill_value=None, verbose=0, copy=True, add_indicator=False)
+
+simpleimputer -- Imputation transformer for completing missing values.
+transformer ??? 
+parameter tunning -- mean starategy 
+mode or median staratey -- hyperparamater tunning
+
+.fit & .transform method 
+
+mean -- age (38.77) || salary -- 63777.77
+median -- age (40.0) || salary -- 61000 
+mode -- age (40) | salary - 61000
+
+parameter vs hyperparameter tuning-->
+------------------
+https://www.javatpoint.com/model-parameter-vs-hyperparameter#:~:text=Parameters%20are%20the%20configuration%20model,essential%20for%20optimizing%20the%20model
+
+from sklearn.preprocessing import LabelEncoder 
+
+numerical transformer -- simpleimputer
+categorical traonder -- lableencoder, dummyvariabel, onehotencoder \
+
+Train_test_split-->
+---
+100% 
+- 80% train - 20% testing
+- 70% train - 30% testing
+- 85% train - 15% testing
+- 75% train - 25% testing 
+- 95% train - 5% trestin g- model is bias 
+
+70- 30 || 75 - 25 | 80 - 20 ( proper split ratio)
+
+10 records  | 8 - 2 || 7 - 3 
 
 
 
@@ -1883,7 +2446,58 @@ datatype - int | float | char |varchar etc
 
 
 
-****** TASK & PROJECTS *********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+rehman, kishore , santanu -- will take care of the formula sheet from today onwards
+
+******* TASK & PROJECTS *********
 ---------------------------------------
 TASK - 1 : Basic Code Class practise ( identifier, data tyep, datastrucuted -- list() )
 TASK - 2 : Python notes from pages --> [[19 to 54]]
@@ -1893,6 +2507,8 @@ TASK - 5 : Please share your github link to me ( research and build)
 TASK - 6 : covert raw data to clean data ( if possible variable creation concepy using python split function) 
 TASK - 7 : Read the dataset using help of pandas for (.csv || .excel || .html || .json)
 TASK - 8 : 7 new python libraris for reseach 
+TASK - 9 : STATS -- please work on python program to use BAR CHART, PIE CHART,for categorical data 
+TASK-10 : STATS -- please try with histogram 
  -----------------------------------------------------------------
 PROJECT-1 : https://scipy.github.io/old-wiki/pages/Numpy_Example_List.html ( NUMPY FUNCTIONALITY)
 PROJECT-2 : IPL data analysis with Numpy + Matplotlib 	
@@ -1906,6 +2522,8 @@ PROJECT-9 :  RESUME PROJECT ( it takes more time || please work with understandi
 PROJECT-10 : SEABORN -- Fifa Data analysis project 
 PROJECT-11 : EDA -- Hear disease Project 
 PROJECT-12 : Sql towards data analysis || sql towards data science
+PROJECT-13 : House income - expances analysis using descriptive stats
+
 
 
 
