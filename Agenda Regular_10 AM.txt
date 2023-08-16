@@ -2436,6 +2436,327 @@ Train_test_split-->
 70- 30 || 75 - 25 | 80 - 20 ( proper split ratio)
 
 10 records  | 8 - 2 || 7 - 3 
+*****10th******
+random_state= 0
+
+lets discuss what happened if we split the data without random_state 
+at the time of split the data random_state = 0
+
+
+from sklearn.preprocessing import lableencoder
+from sklerar.model_selection import train_test_split
+from sklearn.imputer iimport simpleimputer 
+
+data preprocessing is completed -->
+
+overfitting & underfititing-->
+----
+x-train & y-train ==> + 
+model m1 
+we pass x-test to the model 
+model predict y_pred
+
+y_test vs y_pred 
+
+overfitting -- train the model with more attribute - overfitting 
+underfitting - train the model with less attribute -- 
+
+india -- player tshire, shoe, height
+
+if overfitting problem happend then we will get less accurary high error 
+if underfitting problem then we do get less accuracy high error 
+
+how to overcome underfitting problem --> add relavant attribute 
+---
+technqiue to reduce overfitting-->
+---
+- cross validation 
+- regularization 
+- ensamble 
+- busines understanding
+- drop out the neruon 
+- pca (principal component analysis)
+
+technique to reduce underfitting-->
+---
+- To add more relavant attribute 
+
+PCA(PRINCIPAL COMPONENT ANALYSIS)
+------
+PCA = dimension reduction technique
+we can create multiple pc based on multiple views
+based on eigen value & eigne vactor we considder pc which has highest eigne vector 
+pca is help to reduce overfittiong
+
+data dictionary - attribute | columns | variable 
+*****11th********
+- Data preprocessing we are completed
+
+REGRESSION -->
+-----
+LINEAR REGRESSION  -->
+----
+1- simple linear regression 
+2- multiple linear regression 
+3- gradient descend 
+4- lasso regression | lasso regularization | l1 regression | l1 regularization 
+5- ridge regression | ridge regularization | l2 regression | l2 regualarization 
+
+NON - LINEAR REGRESSION 
+----
+6- poloynomial regression 
+7- support vector regression 
+8- decission tree regresssion 
+9- random forest regressoin 
+10- k-nearest neighbour regressor 
+11- time series 
+12- ann regressor 
+
+Simple linear regression -->
+-----------
+y = mx + c
+--
+y - d.v 
+x - i.v 
+m - slope - which we compute from the math calculation 
+c- either give or also you can compute (constant)
+
+best fit line -->
+in this explanation we have only 5 datapoint | 
+sklearn framework - math + ds + algoriyt + inbuild 
+
+math part is completed 
+practicle now -->
+---
+from sklearn.linear_model import LinearRegression
+
+
+how mnay model you build in your prject
+
+simple linear regression - algoriytm 
+fit this algo to x_train & y_train 
+regressor model == regressor 
+
+online -- 41
+offline -- 30 
+
+pract -- 30 records & 2 column 
+
+m - 9312.57
+
+c = 26780.099
+****14th******
+- bias vs variance
+- automated EDA tools
+- how to implement these technique to the simple linear regression practicle 
+
+- Build the model x-train & y-train
+- multicolearinility problem 
+
+--> 
+bias -- train data || variance - testing data 
+
+x-train + y-tarin 
+
+low bias high variance - overfitting 
+
+high bias low variance - underfitting 
+
+low bias low variance - bestfit 
+
+what is mean by bias-variance tradeoff --> best fit ( low bias & low variance)
+
+bias - 94%  || variance -- 98% ==> excelent slr model 
+bias- 45% || variance - 98% ==> overfitting 
+bias - 94% || variance - 55% ==> underfitting 
+
+simple linear regression is complete
+
+-- math equation was predict the future
+-- how to compute slop  & intercept
+-- sklarn -- math equesiton 
+--- skleear.coef__ 
+-- sklearn.intercet__
+-- predict the future 
+-- we checn actua vs predicnt graph 
+-- overfitting & underfitting
+=== 
+automated eda tools -->
+----
+1) SweetViz || 
+2) Pandas-profiling
+3) DataPrep
+4) AutoViz
+5) D-Tale
+6) dabl
+7) QuickDA
+8) Lux
+
+these tools save your time from copying jupyter graph make into ppt for any summarizaiton 
+manuall - automated
+
+2-- multiple linear regression-->
+y = m1x1 + m2x2 + m3x3 +
+
+many iv | 1 dv 
+
+house price prediction --> 
+----- 
+stats.api
+rfe  -- backward elimination 
+stats theory we covered 
+r2,adjusted, anove 
+regression tabel 
+
+as per dataset discussion now -- NIT organization spent on 
+researh, hr domain, marketing ,state -- profit 
+
+-- business requirment -->
+-- being a datascienti you need to suggest to the organization ceo only 1 attribute where he can spend money 
+
+solution -->
+---
+- multiple linear regression 
+- statists api 
+- ceo need to proof why you saying what is strongest view where ceo can trust you 
+
+pd.get_dummies ---> Convert categorical variable into dummy/indicator variables.
+
+statsmodels.formula.api -->
+ https://www.statsmodels.org/stable/api.html (refer this for your reference)
+----
+bring the stats formul and pass to ml model 
+
+statsmodels.tsa.api --- timeseries analysis.api  (( practictle)) 
+time seirs -- not classificaiton alway be a regression 
+
+regressor.summary() -- Summarize the Regression Results.
+
+we build the stats regression tablea
+****16th****
+- gradident descend
+- stocastic gradient descend
+- batch gradient descend
+
+for these concept we dont practicle
+-- we learn this concept becuase ann ( we use optmizer )
+
+optimizer -->
+gd | sgd | rmsprop | adam | adagrade | adadelta 
+optimizer -- >
+
+mse = ols = loss functin = cost function = residual 
+actual point - predicted point 
+
+gd is an optimzation algorithm which finds best fit line for given training data
+
+gd is plot on 3d  -- m (slope) || c- constant ( intercept) || mse (cost function )
+when you conver to 2d then we get fit line or best fit line
+
+while we reach to global minima alsway step count would be very less. 
+
+wheil (lr = 0.01)  
+
+to train the model 5 min | 4min
+
+real time  5min |
+
+while you work on your project have  you face any changle in you priect while build the ml model ??
+24hr 
+
+gd -- 3 datast -- 5min 
+ral - 3cr datapoin t-- lr 0.01 
+
+for big data gd is very very slow 
+when ever you aply lr ( train time wiould very high_) 
+
+-- 4gb ( 12gb ram | 512 gb ssd)
+- colab -- gmail (google clodu) 
+
+abc@valu.com 
+gyf@ hcl.com
+
+
+gd is optimization algorith to reduce cost function & Increase the accuracy 
+
+ann -
+cnn
+rnn
+
+lazypredictregressor -- parameter tunning 
+lazypredict classifier - parameter tunning 
+
+gd | sgd 
+
+gd -- individual data point reach  single datapoint ( reduce the loss increate the accuracy) || lr = 0.01
+sgd -- pick the random data & make cluster reach globa minima  ( reduce the loss increate the accuracy)
+bgd -- split the data into batches reach the global minima( reduce the loss increate the accuracy) kr =0.01
+gd vs sgd vs bgd -- clear
+ann.fit(optimizer = gd, batch_size = 32, epoc =10)
+boosting algothi 
+ann -- fp & bp
+cnn -- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2522,7 +2843,16 @@ PROJECT-9 :  RESUME PROJECT ( it takes more time || please work with understandi
 PROJECT-10 : SEABORN -- Fifa Data analysis project 
 PROJECT-11 : EDA -- Hear disease Project 
 PROJECT-12 : Sql towards data analysis || sql towards data science
-PROJECT-13 : House income - expances analysis using descriptive stats
+PROJECT-13 : House income - expances analysis using descriptive 
+PROJECT-14 : DATA PREPROCESSING 
+PROJECT-15 : TITANIC DATA SET ANALYSIS 
+PROJECT-16 : SIMPLE LINEAR REGRESSION WITH FUTURE SALARY PREDICTION
+PROJECT-17 : HOUSE PRICE PREDICTION USING SLR
+PROJECT-18 : MULTIPLE LINEAR REGRESSION WITH STATUS .API & REGRESION TABLE 
+PROJECT-19 : HOUSE PRICE PREDICTION USING MLR &  DEFINE FUNCTION 
+
+
+
 
 
 
