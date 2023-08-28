@@ -2676,10 +2676,9 @@ when ever you aply lr ( train time wiould very high_)
 abc@valu.com 
 gyf@ hcl.com
 
-
 gd is optimization algorith to reduce cost function & Increase the accuracy 
 
-ann -
+ann 
 cnn
 rnn
 
@@ -2696,6 +2695,731 @@ ann.fit(optimizer = gd, batch_size = 32, epoc =10)
 boosting algothi 
 ann -- fp & bp
 cnn -- 
+****17th******
+regularization technique --> done
+-----
+- lasso regularization | lasso regression | l1 regularization or l1 regresion
+- ridge regualarization | ridge regresion 	 | l2 regualarization | l2 regresion	
+- elasticnet regularization | combination of (l1 + l2)
+
+Feature selection technique --> data mining part 
+---
+
+Feature scaling technique--> practicle 
+--- 
+- normalization | min - max scaler 
+- standarizaiton 
+
+time series - we will discuss later 
+
+regression -->
+linear & non - linear 
+
+also train the model wil high coefficient at that tiem also overfitting happen
+
+we trying regularizat the scale down high coeffience to low coeffiencinet this concept we called regularization 
+
+ridge -- scaled down high coeffience to low coeffinecet but not zero 
+lasso - scaled down high coefficient to low coefficient zero 
+	 l1 aka feature elimeint techniqeu 
+elasticent --> l1 + l 2
+inherith propery of multicolearinility from l2 
+inherit propery of featuure ellimination from l1 
+
+reduce overfitting -- pca & regualization 
+
+apply for each & every algorthem 
+ml -- regularizaiton 
+dl -- drop out 
+stat - reject the null hypothesis ( remove unimportant attributes) 
+
+featre selection techniqeu -->
+---
+
+feature engineering vs feature selection technique vs feature scaling technique
+---
+eda technqieu - feature engineering 
+
+feature selection techniue -->(how to find relavant attribute from the dataset) 
+---
+- business understanding
+- attribute understanding
+- filter method 
+- wrapper method 
+- embedd methoed
+
+
+pearson chi-squard -- he dveloper this formul for comparsion actual vale & observer value 
+if you dont find normal distren -- dont select the attribute 
+chi-squar test 
+
+
+feature scaling technique -->
+----
+Normalization --> min max scaler | transformer ( range 0 to 1)
+- does not fillow gausian distributeion 
+we never get -ve values
+
+Standarization --> range ( 0 to )
+- does follow gausian distrtion 
+we do get -ve value 
+
+take recording 5k 
+****18th******
+machine learning -- feature selection technque 
+
+azur - machine learning 
+
+code is already writted by  microsoft 
+
+pyspark, azur, aws , r
+ml -- you can build 
+concept 
+- we complete linear algorithnm
+
+slr, mlr, l1, l2, gd, sgd, bgd, statsmodel.api 
+
+NON LINEAR REGRESSION ALGORITHM -->
+------
+POLYNOMIAL REGRESSION 
+SUPPORT VECTOR REGRESSOR 
+K NEAREST NEIGHBOUR REGRESSOR
+DECISSIONTREE REGRESSOR 
+RANDOM FOREST REGRESSOR 
+
+HYDER -- 10 RESTURENT 
+10 RESUTENT -- 
+
+WHICH MODEL IS BEST 
+
+1DATASET -- BUILD ALL 5 MODEL THEN WE FINALISED FINAL ONE 
+
+99% USE CASE WE WILL TRAIN & TEST THE DATA 
+
+FEW DATA SET WHERE TRAIN & TEST NOT REQUIRED
+
+WITHOUT TRAIN & TEST 
+---
+POLYNOMIAL REGRESSION -->
+--
+
+from sklearn.preprocessing import PolynomialFeatures
+---
+linear reg model - with degree 1 - 6.5 -- mode predict - 330 
+polynomial model - degree - 2 -- 6.5 -- model prediction - 189 
+polynomial model - degree - 0 -- 6.5 -- model prediction - 250  ( Hyperpamarameter tunning) 1st time 
+polynomial model - degree - 3 -- 6.5 -- model prediction - 133  ( Hyperpamarameter tunning) 2nd time 
+polynomial model - degree - 4 -- 6.5 -- model prediction - 158  ( Hyperpamarameter tunning) 3rd ime 
+polynomial model - degree - 5 -- 6.5 -- model prediction - 174  ( Hyperpamarameter tunning) 4th ime 
+polynomial model - degree - 6 -- 6.5 -- model prediction - 174  ( Hyperpamarameter tunning) 5th ime 
+
+backend part is done 
+testing 
+frontend 
+frontend , html, androdi, androdi
+
+polynomial regression is completed --->
+-- 
+automisation (manual job to automation)
+cost cuttin g(organiztion costcutting) 
+time saving
+more productive 
+no latency in work 
+more accuracy 
+future prediction 
+- look for another prject by saving time 
+- money . 
+==== svr algorithm ===
+support vector regression 
+
+
+hyperplance
+decission boundery | support vector line  - +ve distance
+deciasison boundry | support vecot line -- -ve diastan
+
+distance between 2 support vector - maximum marginal distance ?
+why we need to look for maximum marginear distance - i will explain in svm classification 
+****21st*****
+svr  -- regression (d.v is continuouse)
+svm -- classification  (dv is binary)
+
+svr & svm both follow same math 
+maximimum marginal distance -- math explanation at classficaiton 
+
+svr --> hyperplance
+marginal distance
+decission boundy or svr line 
+
+1dataset 
+
+product based - mrf tyres
+
+20yr >20yr
+
+mrf -- mrf pricing predicition for future
+mrf business profit | loss ( classifcaiton) 
+
+1 dataset 
+
+- poly  - 67% -- 174 for 6.5 level of 
+- svr  - 76%
+- dtr  - 56%
+- rfr - 87%
+- ann regressor  - 89%
+- knn regressor  - 93%
+
+which is best model -- knn regression 
+
+this model goes deployment 
+
+after depyer -- website will be create 
+
+custeromer -- use website 
+
+- money transtion -- organizaiton 
+
+svr vs svm 
+
+regression(svr) -->(dv is continuou)
+class sklearn.svm.SVR(*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1.0, 
+epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)
+ 
+
+classification(svm)  -->(dv is binary)
+class sklearn.svm.SVC(*, C=1.0, kernel='rbf', degree=3, gamma='scale', coef0=0.0, 
+shrinking=True, probability=False, tol=0.001, cache_size=200, class_weight=None, verbose=False, 
+max_iter=-1, decision_function_shape='ovr', break_ties=False, random_state=None)[source]
+
+kernel{'linear', 'poly', 'rbf', 'sigmoid', 'precomputed'}
+
+gamma{'scale', 'auto'} - coefficient above kernla 
+
+9x1 -- 9 coefficient of x1 
+
+poly - 174k | svr -- 164 | 
+
+svr --rbf kernal - 6.5 -- > 130
+        -- sigmoid - 6.5 --> 130
+		-- poly, 4th degree --> 134
+		-- poly , 5th degree --> 164 
+		-- poly, 6th degree --> ??
+		-- linear  --> ??
+		-- precomputed -- ??
+		
+team please let me know final prediction using svr algorithm
+
+-- somatic --
+
+about robot since 6-7yr 
+
+ai --> every where 
+robot ( ai) 
+
+polynomial regression is completed
+svr is completed
+knn --> concept i will explain at classifcaiotn 
+
+classification i will spend more time
+
+KNN ALGORITHM -->
+---
+k nearest neighbour -->
+---
+
+befault -- 5 neighbours
+weight - uniform & distnace 
+
+algorithm{'auto', 'ball_tree', 'kd_tree', 'brute'}, default='auto'
+inbuild by sklearn 
+
+to learn machine learning ( we dont want any code, data structre, algorithm) 	
+
+p =1 ( manhatten distance) p =2 (euclidinan)
+
+10 am - if you learn ml well 
+
+ml in pyspar is easy 
+ml in azur, aws, gcp is easy 
+
+knn regressor prediction - 168(5th neighbour) || 223 - 6th neighbour 190 
+
+ranking regression algo table -->
+--- 
+knn - 190 (6.5)
+poly - 174 (6.5)
+svr -- 164 (6.5)
+dt -? 
+rf - ?
+resume project -- regression part 
+
+
+bank risk anlaya (bank domain)
+regression --( how to connect to all the domain)
+
+fifa ( sports) -- 
+heart disease ( healhcare) 
+
+bfsi (bankng, financ, service, insurance) 
+******22nd********
+decission tree 
+random forest 
+resume project 
+
+slr - math 
+poly - we discuss
+mlr 
+
+svr,knn, dt, rf  math we havend discus
+
+decission tree algorithm -->
+--
+
+cart -- 
+ca - classification 
+rt - regression 
+
+Tree Algorithm -->
+-----------
+dt 
+rf
+adaboost, 
+xgboost 
+gbm
+lgbm 
+
+
+we apply these algo to the employee dataset 
+
+what happend if we have big data we follow the same techniques
+
+take decission from singe tree - decission tree 
+forest = group of tree
+randon forest-- tal 
+
+n_estimatro - 100 
+
+
+DecisionTreeRegressor(\*, criterion="squared_error", splitter="best", max_depth=None, 
+min_samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, 
+random_state=None, max_leaf_nodes=None, min_impurity_decrease=0.0, ccp_alpha=0.0)
+
+criterion{"squared_error", "friedman_mse", "absolute_error", "poisson"}
+
+knn - 175 | svr - 175 | poly - 174 | dtr - 150 & 200 | rfr - 160 
+
+lets build the rankding table 
+
+1- knn - 175 
+2- svr - 175
+3- poly - 174
+4- dtr - 150
+5- rf - 160 
+
+which model go for deployment
+
+yesterdya & today we build 5 algorithm --> 2 sec train the model 
+
+real time it has to be like that 
+
+-- xgboost ( 24hr)
+- save the model it will take 
+
+regression model we build ( we learnt tunning & hyperparamater tunning for all the model so far)
+
+3months ago -- new package is introucced
+
+LAZY PREDICT REGRESSOR - WHEN YOU FIT THIS ALGO TO THE DATASET 
+3SEC -- ALL MODEL ACCRAUCY PREDCTION IT WILL CONSIDER ONLY PARAMETER TUNNING 
+
+it wont do hyperparameter tunning 
+
+online team - 10 peopely unerstand 
+offline team - 10 people undert 
+
+
+
+LAY PREDICTION CLASSIFIER 
+
+see the dataset 
+
+2.6mont )60% donw 
+
+140 studetn |
+
+3.6 month --  20 
+onine - 25 
+
+last - 30 studetn 
+
+10 will be offer. 
+
+opencv -- post the code and 
+
+ofllien is way better then online
+
+onlien -
+
+regression algorith (20%)
+lazypredictregresion - only parameter tunning) 
+classification (80%)
+
+
+
+datate
+busin | attrintue 
+dv | regre | classion 
+stati - skew nes 4
+z-score 
+.corr()
+bivar | heat map 
+diangloa 
+eda 
+ml moel building 
+import libary
+divin x & y 
+x - xtrin 
+ytrai & Ytest
+feature scaling 
+train model x-trai ytatin
+pass xtest to the model 
+prediction 
+compaer y-test vs y-pred
+live testing ( 1, 2, 3)
+all thest case are pass
+test 1 -with tfuture data 
+pkl fil | .h5 | tkinter | tensorlite | heroku | stramlite| flaks | docker | kubernate | djanoo | db 
+website -- front ened create 
+mob e- androdi dveloper
+ip hone- iphone develoepr 
+maitain the model
+retain the model with new data 
+
+-- regressor project --> avocado price prediction 
+---
+
+3  link to you --> real time project 
+---- 
+price prediciton | flight | train | 
+electricy unit pridice prediction 
+dry frufit prcie predciton 
+walmart sales prediction 
+tata car sold price 
+crypto currecy
+bit coin prediction 
+mark stock predciont 
+dad business predction 
+- medicine prediction predcint 
+- covide predciont 
+- earthquest
+- wether 
+
+
+concept, method, algo are same for every and diffent domain 
+
+business is difference 
+attribute is diffenec e-
+selection d.v is diffence
+choose the right ati
+
+Today we completed regression (indepth)
+******23rd******
+classificaiton - d.v is binary 
+
+performance measure of regression r2 & adjusted 2
+
+type-1 - false +ve | type 2 - false -ve 
+
+regression report --> regression table ( anova, r2, adjusted2, t-table, p-value) 
+after build the regression model how to evalute the model - r2 & adjusted r2 
+
+classificaiton report ( confusion matrix) -->
+after build the classification model how to evalute the classification model - confusinon matrix 
+4 part ->
+----
+TP - True +ve
+TN - True -ve
+FP - False +ve 
+FN - False -ve 
+
+CM ( alway build on y_test vs y_pred
+
+model accuracy = TP + TN / (TP + TN + FP + FN )
+Error  = FP + FN / (TP + TN + FP + FN)  |||| (1- ACCURACY)
+precisson == tp / predicted yes 
+recall = tp / actual yes 
+f1 score = 2 * precisson + recall / (precisiion +recall)
+--
+What does F1 score tell you?
+F1 score is a machine learning evaluation metric that measures a model's accuracy. 
+It combines the precision and recall scores of a model. 
+The accuracy metric computes how many times a model made a correct prediction across the entire dataset.
+
+LOGISTIC REGRESSION --> ( logit or maxent) 
+----
+- mahcine learning this is one of the probabiliyt algorithm 
+- logistic funtionary used alwasy in deep learning 
+- this is classification algorithm 
+- but why name itself mention as logistic + regression r 
+
+logistic regression is always be an classifcation if we have outlier 
+
+if we dont have outlier then we can called as logistic regression 
+
+
+logistic regression 
+
+fresher 
+intermediate
+experience 
+
+scenario based inteview quesiton 
+project based interview question 
+code based intervew queston 
+managerical intervewi question 
+
+--- l&t --- product based -- 
+accenture, wipro 
+
+xyz (hyndai ) car company area 
+- customers are visit to shop and test drive 
+- 6 months not even 1 car sold 
+- hired you as datascienctist 
+- can you suggest this use case how this problem solve 
+- 10cr 
+- 7 moths 
+- 10cr loss in just 6 month 
+
+== math about logistic
+== practicle 
+== confusion matrix 
+== random state accuracy will varie
+== f1 score 
+== graph 
+
+friday -- how to predictu the futre based on exisiting model 
+real time test the model prediction vs future data 
+*****24th**********
+logit -->
+---
+math behind the logistic regression -->
+
+data has no outlier - regression 
+data has outlier- logisti regression as classificaiton algorithm
+
+case-1 : y = +ve ||| wx = +ve || ( y*wx > 0) -- data points are classified proper | proper classificaiton happending
+
+case - 2 : y = -ve | wx = -ve || (y*wx > 0) -- -- data points are classified proper | proper classificaiton happending
+
+case-3 : y = +ve | wx = -ve || (y*ws < 0 ) -- data poinet are missclassified 
+
+max (y*wx) this formula almost try to classified the data well ( -ve value never come up) 
+
+sigmoid - (1 / 1 +e -x) -- outlier will adjusted
+
+logistic regression vs sigmoid 
+
+
+practicle -->
+----
+
+b
+(24th aug 2023 - 31st dec 2023) - future data 
+future data - no
+you need to prediction for the from 24th aug - 31st dec 23
+
+
+- how to pass future recrods to the existing model 
+- model will predict the future 
+
+from sklearn.linear_model import LogisticRegression
+
+solver : {'newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'}, default='lbfgs'
+
+Algorithm to use in the optimization problem. Default is 'lbfgs'. 
+To choose a solver, you might want to consider the following aspects:
+
+For small datasets, 'liblinear' is a good choice, 
+whereas 'sag' and 'saga' are faster for large ones;
+
+For multiclass problems, only 'newton-cg', 'sag', 'saga' and 'lbfgs' handle multinomial loss;
+'liblinear' is limited to one-versus-rest schemes.
+
+Warning
+
+The choice of the algorithm depends on the penalty chosen: Supported penalties by solver:
+'newton-cg' - ['l2', 'none']
+'lbfgs' - ['l2', 'none']
+'liblinear' - ['l1', 'l2']
+'sag' - ['l2', 'none']
+'saga' - ['elasticnet', 'l1', 'l2', 'none']
+
+from sklearn.metrics import confusion_matrix
+[[65  3]
+ [ 8 24]]
+ tp - 65 | tn - 24 | fp - 3 | fn - 8
+ 
+ model acuracy -- tp + tn / total = 65+24 | 65+24+3+8 = 89/100 ==> 89% 
+ 89% accuracy we built the model on historical data 
+ 
+ accruacy = 89% | error == 11% 
+ 
+ from sklearn.metrics import accuracy_score 
+ 
+ from sklearn.metrics import classification_report
+ 
+ low bias low variance good accuracy 
+ 
+ accuracy - 89% || bias - 82% || variance - 89% ( low bias low variance) best fit (bias variance tradeoff)
+ acc -89% | bias - 45% | variance - 78% -- low bias high variance(overfitting)  
+ acc-89% | bias - 80% | variance - 45% -- hig bias low variance( underfitting) 
+ 
+ 90% 
+ 
+ how to increase the accuracy -->
+ 
+ Logit model - 25% split - ac - 89% ( standaridatzation) - bias 82 variance 89%
+ Logit model - 20% split - ac - 92% ( standaridatzation) - bias 82 variance 92%
+ 
+ logit model please build above table 
+1- with normalizer test split - 20% & 25% | ac | bias | variance - accuracy reduced 
+2- do hyperparmater tunning with all solver | standarizat @ 20% --> ac - ACCURACY REDUCED 
+3- without feature scaling let me know the (accuracy both sclaing technique)  -- ACCURACY REDUCE 
+4- please use random_state = 21, 41, 51, 100 build the model with standsclaer 20% split 
+5- how to pass the 10 future recrods to the existing model & lets model prediction 
+6- compare with future appointed customer
+ 
+ upload in the classroom -->
+ ==== 
+ 
+ next step -->
+ we finalized one model with final parameter 
+ logistic model is ready 
+ 
+ model we built 1st 23 to 31st 23
+ *****25th***
+ - math behind the logit 
+ - why logit as probability | sigmoid
+ - logistic regress is classificaton 
+ - we build the model on historical data 
+ - check confusion matrix, precison, recal, f1score 
+ 
+ chandrayan - 3 dataset || 
+ 
+ 
+ agenda
+ - we discuss dataset with code ( if the data is image skip)
+ - predict the future
+ - round, hr few 
+ 
+ we build the logistic classificaiton algorithm
+ 
+ model accuracy - 92.50%  ( historical data )
+ 
+ what is the next?? 
+ 
+ lets feed future records to the existing model 
+ 
+ how to feed the future data to the model ??? 
+ 
+ dataset customer purchase the vehicle or not ?
+ 
+ we train the model with limited attribute 
+ 
+ age salary 
+ 
+ age salary name roll 
+ 
+ -- comapraion of attribution 
+ 
+ logit predction by datascietint vs real data 
+ 
+ what happend if model predict the future 
+ 
+ what happend if you predciton how many realestate busness next yr - 85%
+ you invetst money some ther plaese
+ 
+ fores-- 23% armgince || 80% rapde 
+ 
+ tey more client | more busines | more rich 
+ 
+-- DEPLOYMENT 
+-- FRONTEND ( WEBSITE)
+-- CLIENT ( CUSTOMER) 
+
+-- USE WEBSTIE -- CC | DC | CASH REVE
+DATASCEINE-- COMPAY WILL GAIN PROECT
+
+THEY 1CR ( 10 RS) 
+
+CLIENT WILL PAY 1DAY -- 1YR 
+
+
+politics 
+
+manager s 
+-- till the time you get the offer please dont keep hope 
+-- give interview. forget 
+-- unable to code in the organizaton ( he suiside) 
+-- parate dint educat them 
+ logistic regression 
+ ****28th****
+ k nearest neighbour algorithm -- based on nearest point we decide classificaiton problem 
+ distance matrices -- euclidinan distans, manhatten distance 
+ 
+knn -- imputation 
+knn -- classification based nearest neighbour
+knn - regresion --> we take mean of the assigned k value 
+
+imbalanced data -->
+---
+100% --> 0.01%
+99.09% -- genuinue transaction || 0.01% is fraud transaction 
+
+fraud never happend-- how to balanced it. 
+
+in confusionx matgrx, but specificaot you need to check precison & recall. 
+
+imbalance -- how to balaced it 
+
+SMOTHE -- SYNTHETIC MINORITY OVERSAMPLING & UNDERSAMPLING TECHNIQUE 
+
+does knn impact to outlier ->
+
+if k point > one class --> imbalanced data
+
+k - ED
+
+OUTLIER DOES IMPACT ACCURACY OF THE MODEL ==>
+
+1 dataset 
+
+knn - 
+logit -- best accuracy (
+svm 
+gbm
+
+
+business -- busenn is diffece but algo are same 
+
+knn thoeircal & math part is completed 
+
+logit -- 92.50% 
+
+logit eda pca 
+
+l1 | l2 inbuild 
+
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+
+
+
 
 
 
@@ -2850,6 +3574,8 @@ PROJECT-16 : SIMPLE LINEAR REGRESSION WITH FUTURE SALARY PREDICTION
 PROJECT-17 : HOUSE PRICE PREDICTION USING SLR
 PROJECT-18 : MULTIPLE LINEAR REGRESSION WITH STATUS .API & REGRESION TABLE 
 PROJECT-19 : HOUSE PRICE PREDICTION USING MLR &  DEFINE FUNCTION 
+PROJECT-20 :  LASSO & RIDGE REGULARIZATION 
+
 
 
 
