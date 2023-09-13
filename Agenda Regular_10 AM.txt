@@ -3408,17 +3408,691 @@ logit -- 92.50%
 logit eda pca 
 
 l1 | l2 inbuild 
+****29th******'
+svm (support vector machine)
 
-  
-  
-  
+LSVM vs NON-LINEAR SVM 
+
+non linear how to split - that means it is not possible --- then it is wrong 
+
+hd - ld(pca) -- overfitting vs 
+ld - hd(kernel function) svm  ( we split the data )
+
+we also math for svm | lsvm vs nonlinear svm | kernal 
+
+99% data is non linear 
+
+ -- 4-6la to enroll datasicne course 
+
+LOGIT - 92.50
+knn - 95%
+svm - 
+
+ac == variance ( data is clean now )
+real time - you never get this
+****30****
+NAIVEVE BAYES ALGORITHM -->
+---
+- PROBABILITY ALGORITHM 
+
+naive bayes - 
+- conditional probability -- done 
+- bayes theorm | baysian theroem  -- done
+- naive bayes 
+- varient of nb
+
+-- what is mean naive in NB 
+
+conditional probability -->
+-- 
+2 event & A & B -- both event are indendent that we called naive 
+p(a/b) = p(a ^ b)/p(b) ==> conditional probability 
+
+Bayes theorem | baysian theorem -->
+---
+p(a/b) = p(b/a) * p(a) // p(b)
+p(a/b) -- posterior probabbiliyt
+p(b/a) -- likelihood
+p(a) -- prior probabbiliyt
+p(b) - marginal likelihood 
+
+bayes theorem bornd from conditional probability
+----
+Naive Bayes -->
+--
+don 
+-- real time where we are using baysian theorem across all the domain 
+Agriculture, healthcare, smart cities, education, manufacturing, energy etc. 
+Understanding of challenges and opportunities, inclusivity issues, affordability requirements and regulations.
+**** 31st****
+Baysian theorem
+
+use case for the naive bayes
+naive bayes largely using langual model , llm ( large language model) 
+
+naive bayes algo predicts(75% probality ) ticket will confirm
+pass book the ticket (  his ticket confirm) -- 100% accuracy 
+automatically - money refund
+
+math 
+conditional probabbiliyt | bays therome | naive bayes 
+
+use case in real time hwew 
+
+ml - logit & nb ()
+
+variants of naive bayes -->
+
+nlb largy used in nlp section 
+---model hyperparamater tunning 
+
+bernouli naive bayes ( data is binary ) -- bernoulli distribution 
+gausian naive bayes  (data is binary) -- gausina distribution 
+multinomial naive bayes (do not implement when the data is binary)-- data is discreate  -- multinomial distribution 
+
+Naive bayes doesnot required feature scaling 
+
+does nb required feature scaling --> (y/n )
+
+bernouli nb --> without feature scaling --> ac - 72.50   || bias - 62.18% -- Normalizer 
+								withoute  feature scaling --> ac - 72.50% || bias - 62.18% -- Normalizer 
+
+bernouli nb -> with feature scaling --> ac - 82.50% | bias - 70% -- Standscaer 
+								with out feature scaling --> ac - 72.50 || bias - 62.18% -- Standard scaler 
+								
+transformer = feature scaling = stadn vs normalize 
+standscaler follow gausina distribution 
+
+
+gausian nb --> ac 91.25 & bias - 88 || with scaling  || standadscaler 
+						--> ac - 92.50 & bias- 87.81 | without scaling  || standarscaller
+						
+						nomalizer for gausina nb 
+						
+multilonimal nb --> ac-56.25 bias 67 || without sclaing 
+									--> ac- 72.50  | bias - 62% 
+									
+	
+i want to please work on the data indepth anlysis 
+
+logit | svm | knn | naive bayes -- completed 
+
+tree algorithm --> - root node, leaf node, child node -->
+------		
+Q- decission tree how to create root node  from the dataset? 
+			
+steps to create root node -->
+---
+1- identify the dv 
+2- you need to compute INFORMATION GAIN (IG) of dv || IG of dv - 1
+3- Identify th iv 
+4- GAIN of each relavnt i.v [[[ ( GAIN = IG - E(I.V.) ]]]
+5- Highest gain will decide the root node 
+
+PURITY SPLIT ( any 1 side would be 0) 
+IMPURITH SPLIT ( both side value)
+
+max_depth -- depth of the tree
+
+we build the tree indepth or
+
+if we build the tree indepth then overiftting problem will happen 
+
+Why dt- indepth tee & Why randon forest - sequentil tree 
+		
+root node is always be an independent variable . never be dependent variable 
+
+when we hav more attribute then only we build the tree indepth --- overfitting
+
+pruning tehchniq would help to reduce overfitting problem. 
+
+the process of remove irrelavant attribute is called prunning , 
+
+decission tree what are prunning parameter -->
+max_leaf_node || mins_samples_leaf| max_depth 
+
+math, thoery, concept 
+
+tree algorithm does not require feature scaling 
+team please work on decision with hypertune & also try to reduce to bias 
+*****4th******
+
+ENSAMBLE LEARNING -> MIXTURE MODEL 
+---
+ensamble learning using different algo and we created strong learner or strong classifier 
+ensamble learning using differenc training data we create strong learner or strong classifier
+
+BAGGING
+BOOSTING
+VOTING | STACKING 
+
+technique to reduce overfitting -->
+--
+cross validation 
+pca 
+rfe 
+ensamble 
+regularization 
+business understanding 
+
+Ensamble technique -- bagging & boosting
+Bagging -> Random forest
+Boosting --> adaboost | gradientboosting | xgboost
+
+bootstraping --> bootstraping dataset we understanndong
+BAGGING CONCEPT WE Done
+
+ML model never gives you 100% accuracy 
+
+ml model prediction never harms any one 
+
+80-90%
+
+>80% || >75% 
+
+ml model 
+nlp -- you never get 80%
+
+Boosting -->
+this is very important 
+
+why boosting is sequential tree & dt is indepth tree
+
+when you go for deployment you never use boosting part. 
+
+so far model build now 5 sec ( 5sec ) - 1 day 
+
+what ever the big dat ayou have model has to be trained very quick 
+
+train the model (24hr) 
+
+fresher -- boosting
+expereience - bossting at all 
+
+voting classifier -- hard voting & soft voting 
+
+till the time we will get purity split | any left or right should be 0
+
+if you learn entier ml 
+
+pick one test resto 1000 records
+
+you can pass to all the moel 
+
+model will prediciton 
+
+prediction with real time data 
+live data 
+- deployment 
+test the model future records ( 3 type test cases_
+
+adaboost
+gradient boosting 
+
+1- sample weight
+2- decission stump 
+3- performanc of the stump 
+4- error would be 1/7 
+
+if the records are not misclassication happend ( weight will reduce) 
+if records are misclassifcation happend ( weight will increase)
+
+
+gradient boosting -->
+ gradidne descend 
+
+cost function is reduce incerae accuracy 
+
+graident descend boosting & sequential model 
+*****5th*****
+xgboost --> xtream gradient boosting
+--
+maxdepth --> 2 - 30 
+subsample --> 0.1 to 1
+col sample by level --> 0.1 to 1
+col sample by tree --> 0.1 to 1
+min_child width--> 1, 5, 100
+n_estimator --> 10 - 1000 
+learning rate --> 0.01 - 0.08
+
+pip install xgboost 
+
+bagging
+voting 
+boosting 
+
+capstone project -->
+--
+churn prediction | exit prediction 
+find out the customer & retention strategy 
+
+from xgboost import XGBClassifier
+
+sklearn framework
+xgboost framework
+
+sklearn.xgboost
+
+from sklearn.tree import detect
+from xgboost import 
+
+			base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints='()',
+              n_estimators=100, n_jobs=0, num_parallel_tree=1, random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None
+
+
+
+when ever you build th emodel with the paramater learning rate -- make sure run time to tain the model is very height
+
+
+I will share this dataset -->
+
+1- please build with xgboost with differeent hyperparamater tunning
+
+2- please build with all sklearn classification model 
+
+3- please build the ranking table for all the classificaiotn 
+
+4- i will build cv (gridsearch cv)  | k-fold cv same data 
+***6th*****
+ cross validation
+ auc & roc curve
+ model tunning 
+
+cross validation - when the model is overfitted at that time we are using cv 
+leave one out cv -- every time test split should be 1 
+stratified cv
+time series cv 
+k-fold cv -> we consider constan test recores and we build the model & then we take avearge of the model 
+
+
+time series cv != time sereis algorithm 
+
+leave one out cv | k-fold | stratified 
+
+10am bathc you kno how to chekc mode is overfitte 
+
+when you work in real time most the cast overfitting 99% situreation 
+
+trainn & Practicise from data whihc i share
+test nlp ai -- how the datas are overfitting 
+
+please implement k-fold cv 
+
+after build modle
+ac 
+bias 
+variance 
+k -fold apply hear at the end 
+from sklearn.model_selection import cross_val_score
+real time largly we are implement k-fold cv 
+if you model  not overfitting k-fold also not required 
+
+--- model tunning or hyperparmater tunning----
+
+gridsearch cv 
+randomsearch cv 
+
+used in your existing project 
+
+model tunning 
+logitsti model -- 
+
+
+from sklearn.model_selection import GridSearchCV
+
+
+all the topics comes from cv only cross validation only 
+--- cv & model tunning 
+
+auc & roc 
+auc (area under curve)
+roc (receiver operating characterstica)
+
+
+AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. 
+ROC is a probability curve and AUC represents the degree or measure of separability. It tells 
+how much the model is capable of distinguishing between classes. Higher the AUC, the better the model is at predicting 0 classes as 0 and 1 classes as 1. By analogy, the Higher the AUC, 
+the better the model is at distinguishing between patients with the disease and no disease.
+
+cm - tp | tn | fp | fn 
+
+precission 
+recall 
+
+auc & rocs wil generate only classifcaiont not for regression 
+x-axis = fpr
+
+y-axis = tpr 
+
+
+https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
+
+TPR (True Positive Rate) / Recall /Sensitivity ==> tp / tp + fn 
+
+
+specificity ==> tn / tn + fp 
+
+
+fpr = 1- specifity 
+			=> (1 - tn /tn+fp)
+			=> fp/tn + fp 
+
  
+confustion matrix --> perfomrat mease of classificaiton (wont get graph)
+---
+auc & roc --> performanace measure graph of classificaiton model  (graph)
+
+
+i want team to pleas implem auc & roc curve to all the model at the end
+
+classificaiton algorithm | concept are covered 
+
+
+macine learning 
+
+regression & classificaiont are completed 
+
+end to end model deployment 
+resume 
+project 
+
+then lease apply in the job market 
+
+machine learning engiiern, data nalysis, busines anlys 
+lazy predction classifer please implete to the modle buildding
+*****7th****
+1- Python toward macine learning interview questoion --- Done 
+		10am - i will pick few of them from this batch ( online & offline) 	
+		Take every row from summearizet sheet cerate quesiton & answer & send back to me 
+		when you talk to the brain all revise will happen ( mouth will speak proper tehcnical words)
+	
+2- How to prepared data science resume 
+		fresher category
+		mid experience  category
+		experience category 
+		
+IT  sector ==> .net | jav a| c | c++ embded |s ap | sas | devloper | database etc 
+NONIT secot ==> lector | profess | doc| ca | bpo | call sen t| se | pha | medican etec 
+- you ask yourself which group you are in 
+
+resume should not copy & pase 
+resume should be creat by your own strong concept 
+resume can be refered by differenet palced 
+refer and makeor create  resume -->
+-- lot of client , requret loos the patience 
+resume should be visualziation | visualize resume 
+
+- from chatgpt we take referenc as -- 
+1-experience datascience resume
+2-expernce machine learning resume
+3-experience ai engieer reusme
+4-experience nlp engieenr regume
+5-experinece data anlsyis resume 
+6-experience busine analyst resume
+7-experience computer vision engieeer resume 
+
+i will share some resume to you 
+when i take interview for my comapny 
+i received some profile from genineu working profersion 
+8yr , 12 yr , 15yr , iit, germary 
+
+-- experience resume if i removed experience then this become fresher 
+-- fresher also sound like expering then only you get interview call 
+
+- TCS - 1PROJECT - 50 EMPLOY 
+5 EMPLOY -- SAME 
+ARE 
+WHEN GIVE 50 STUDENT PROJECT ( SAME) 
+
+PLEASE CREATE REUSM FROM 
+RESUME CREATE TEMPATE 
+google 
+chatgpt 
+*****8th******
+3- Resume project  -- are we done 
+4- What are the website to apply job .
+5- I will share some interview prepaation question with answer  
+6- What type of resume should not make 
+7- How clear interview | technical round | coding 
+
+
+
+telecom - customer 
+hotes l- 
+
+RoBERTa and XLNet Model
+
+
+google.com 
+
+-- form today onwards everyday you need to spend 2-3hr to apply the job only 
+-- based on organizatoin requiredn ( change the resume 
+-- naukir ( please update 2 time in day ) 
+-- if youre resume is so strong then only please menion in linkedin
+-- linked -- serar( hr)- shot an eamin 
+-- shot - delate - ok we will get back to you 
+
+-- project part
+-- what the website we have to apply the job 
+-- projec with client is very impart 
+-- 
+
+
+secreate -->
+--
+1- create self introduce note 
+2- projec you mention in the resume ( resume notest prepared ) (end to end)
+3- 1000 Interview 
+4- please record your self (1st) 
+5- records yourself ( 30 records)
+--- 
+recall your memory 
+--- 
+
+tricks -->
+-----
+a  -- got interview ( fail take pic of the question ) - attend fail ( hr gmail id & hr phone)
+b -- he will clear ( fail in 2 id round) -- please(*2nd inter deation)
+c -- c will get offer 
+----
+
+keep applying job 
+
+1- job 
+
+sitll apply job 
+
+10 offer 
+1- soffer ( revmoe)
+2n mde ) 2 remov)
+
+rd10 12 la 
+
+10 day
+100 
+day 
+hard work will finlay 
+
+you ( google, chatgpt, brain, my session, words) vs world 
+
+monday ( deployment )
+clustiering 
+
+friday -- we will star artificaial intelligention 
+*****11th********
+end to end machie learning model deployment using flask & html -->
+--
+regression model -- how to predit the future 
+classificaiotn model --- how to predict the future and also we learned with some of test cases
+how to testin 1, 2, 3 ( 80% accruacy)
+
+--- Next step ( this is ververy import)
+-- application server 
+-- production server 
+
+
+any project any client --> 
+h/w -- 
+s/w -- 
+
+-- AI team ( historical data from the university)
+
+- raw data - clean data ( with lot regex, noisy) 
+- 
+
+While deploy the model to production server what are the challages you face ??
+they are complete busy ( 2 day 3nigh)
+to fix this issue 
+-- what are the issur you faces whil deploy the model to producttion
+
+it team -- write the sql script to get the dataset
+
+name, gender, study, hr, father, math, cibel , roll, regi -- 200 atribute  (
+
+how many hr a student need to study to get good mark 
+
+till now we build the model , test the model 
+
+-- next step
+
+how to save the model 
+
+before you deployment you need to save the model 
+
+joblib -- serialization, light weight api, 
+
+joblib.dump()
+joblib.load()
+
+save the model 
+
+path locaton --> you need to copy --> paste in one folder 
+
+
+you need to drop an email to h m&
+
+
+i store the pickle file in the spefic location 
+
+backend devloper | ml model devoloper 
+
+frontend ---> webframework -- flask or django 
+
+ALSO TEST FRONTEN USING FLASK 
+
+FLASK  - Now 
+DJANGO
+AZUR ML -- websevices 
+AWS
+MLOPS
+DOCKER
+KUBERNATE
+HEROKU 
+DATABASE
+tensorflow lite( mobile device) 
+
+-- if you learn 1 time deployeent ( 3yrs) 
+
+backend || test the frontend -->
+system architecrure 
+
+theorical 
+practi -- data architecture( 15yr exper) 
+data 40lpa 
+googe itself 
+******12th*******
+--- Deployement ---
+-- What are the issues you will face while deploy the model to production server 
+
+-- understand business usecase, problem statment
+-- application server & Production server
+-job lib.load | joblb.dum() || pickle file 
+
+- we create backend ml model (lr)
+-- studenprediction.pkl 
+
+-- what is the next step ????
+---- real time wat happen next step ??? 
+
+covid time -- lot of it 
+
+indain, hk, us, austria ---> franc 
+1project 
+1manage -- drive team 20 employe 
+how they share their thought, meeting 
+manger can identify their work 
+
+how do theyt communiat if they work in on project called 20gb dataset 
+
+---> every orgaizat has drive (z-drive )
+
+--> in this all project can be share ( before github) 
+cloud --- 32 tools 
+every proejct has push to git as reposiraoty 
+
+data not required to store in physical devise 
+
+-- before you deply any code or any product make sure all the files should be in 1 folder --- bydefault 
+- backend code 
+- frontend designer | html page design 
+-- backedn + html + fronendd evloper == product 
+-- deployemnt team 
+-- after you build the model --> 
+
+
+host = '127.0.0.1', port=500 ---> deployment team 
+deployemnt code never runs line by line
+
+what are the issues you face while deploy the model from applicaiton server to production server ?
+
+--> open source library || whild deployemet all the applicaiton should be licensed one ( ananconda business edition) 
+--> security ( while ( personal credential || hipaa | pip |) 
+--> database timeer 
+--> location 
+--> big data
+--> what model you used to train 
+--> what is the runtime duration for train the data 
+--> data quality issue  
+
+https://towardsdatascience.com/challenges-deploying-machine-learning-models-to-production-ded3f9009cb3
+
+Clustering -->
+-------
+dataset has no d.v 
+if the data is discreate 
+student score | 100 | rating 1-5 
+80-90
+70-80 
+
+Automise the model 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
- 
- 
- 
 
 
+						
+	
+						
+						
 
 
 
@@ -3427,120 +4101,63 @@ l1 | l2 inbuild
 
 
 
+*********************RESUME PROJECTS*********************
+https://www.analyticsinsight.net/top-100-machine-learning-project-ideas-for-tech-enthusiasts/
+https://www.interviewbit.com/blog/data-science-projects/
 
+RESME PROJECT'S with the LINK -->	
+1.DATA ANALYSIS --> 
+Risk Analysis for Banking domain --> shared you in the class
 
+2.Churn Prediction in Telecom Industry using Logistic -
+https://www.kaggle.com/code/bhartiprasad17/customer-churn-prediction
 
+3.Churn Prediction in Insurance Industry using Logistic
+https://www.kaggle.com/discussions/getting-started/278785#1545849 -- Business use case
 
+4.Bank Churn Data Exploration And Churn Prediction (credit card customer)
+https://www.kaggle.com/code/thomaskonstantin/bank-churn-data-exploration-and-churn-prediction
 
+5.Predicting Customer Churn with Machine Learning (Predicting Churn for Bank Customers)
+https://www.kaggle.com/code/korfanakis/predicting-customer-churn-with-machine-learning
+https://www.kaggle.com/code/sonalisingh1411/customer-churn-eda-top-5-models-comparion-95
 
+6.Loan Prediction based on Customer Behaviour
+https://www.kaggle.com/code/shahidmandal/loan-prediction-based-on-customer-behaviour
 
+7.customer feedback analysis
+https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk  
 
+8.Customer transaction predection :
+https://www.kaggle.com/c/santander-customer-transaction-prediction/kernels?sortBy=scoreDescending&group=everyone&pageSize=20&competitionId=10385
+https://www.kaggle.com/fl2ooo/nn-wo-pseudo-1-fold-seed
+https://www.kaggle.com/gpreda/santander-eda-and-prediction
+https://www.kaggle.com/jiweiliu/lgb-2-leaves-augment
+https://www.kaggle.com/nawidsayed/lightgbm-and-cnn-3rd-place-solution
 
+9.Fraud detection
+https://www.kaggle.com/ntnu-testimon/banksim1
+https://www.kaggle.com/turkayavci/fraud-detection-on-bank-payments
 
+10.wallmart sale forecasting
+https://www.kaggle.com/andredornas/tp2-walmart-sales-forecast
 
+11.Grocessary sales forcasting:
+https://www.kaggle.com/c/favorita-grocery-sales-forecasting
 
+12. Text mining -
+https://www.analyticsvidhya.com/blog/2018/02/the-different-methods-deal-text-data-predictive-python/
 
+13. Text summarization -- I will share in the class session 
 
+14. Webscrapping from xml articles
 
+15. webscrapping with clustering 
+------------------------------
+Few project description and use case you can found from below link -->
+https://www.projectpro.io/article/15-data-science-projects-for-beginners-with-source-code/343
+---------------------------
 
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-rehman, kishore , santanu -- will take care of the formula sheet from today onwards
 
 ******* TASK & PROJECTS *********
 ---------------------------------------
