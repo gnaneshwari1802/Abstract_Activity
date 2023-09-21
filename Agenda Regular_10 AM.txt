@@ -4071,6 +4071,349 @@ student score | 100 | rating 1-5
 70-80 
 
 Automise the model 
+****13th****
+clustering algorithm == unsupervise learning ( unstructured data) unlabeled data
+
+cluster --- grouping 
+
+real time projects -- customer segmentation 
+
+shoping -- 
+rate of the meal ( 1, 2, 3, 4, 5)
+
+customert rate for 1 star
+how many customer rate for 2 start 
+
+-- chicen tika not tate s-- -ve revise
+100 -ve review 
+-- 
+clustering -->
+k-means
+hierarchical clustering 
+db scan clustering
+
+centroid (center point)
+
+how to choose number of clusters  ----> elbow graph | elbow method 
+
+today math part - euclidian distance 
+wcss ( within cluster sum of squard)
+
+in elbow grah what would be your x-axis & what would y-axis
+
+centroid & y- axis - wcss
+
+capstone project --- customer segmentation 
+
+from sklearn.cluster import KMeans 
+
+elkan algorithm -- k-means
+
+heuristic - 5yr ()
+
+next step -- we build the model on historical data 
+when you show that graph to manager he will scold yo 
+*****14th******
+customer segmentions-->
+---
+
+k-means is very important 
+
+hierarchical clustering --> aggloemerative clustiern - create the cluster from bottom to top approach 		
+														divisive clustering -- top to bottom approach to make the data points
+														
+import scipy.cluster.hierarchy as sch
+
+scipy libraary 
+											
+single linkage 
+double linkage 			
+
+UPGMA algorithm == hirarchical clustering
+WPGMA algorithm == 
+WPGMC algorithm == 
+elkan -- kmeans clustering
+
+mathod ==> single || -- Nearest Point Algorithm
+Complete || -- Farthest Point Algorithm or Voor Hees Algorithm.
+average || - UPGMA algorithm.
+weighted || - also called WPGMA
+centroid || -- UPGMC algorithm
+median ||  - This is also known as the WPGMC algorithm.
+ward || -  minimization algorithm. 
+
+from sklearn.cluster import AgglomerativeClustering
+affinity -- "euclidean", "l1", "l2", "manhattan", "cosine", or "precomputed"
+linkage{'ward', 'complete', 'average', 'single'},
+
+k-measn | hiereahachical clertin g-
+
+-- centrod vs no centrodid concept | dendogram,
+
+all the math part from the algo parameter 
+
+k-means & hierarchical clustering we completed -->
+
+dbscan ( density based spetial clustering application with noise)
+---
+- min point should be 3
+- 
+sklearn has inbuild dataset  
+
+we are complete mahcine learing session .
+
+data analsysi 
+business anlaysis 
+machine learning engineer
+statstic analysis 
+-- how to prepare resume 
+-- what are project need to post the resume
+
+== 50% of the course is completed 
+== 10am batch post 
+== year end 
+then after the couruse 
+
+india | out of the inida 
+- 2hr to apply the job 
+- intervive call ( attend the interview & forget the interview)
+- offer should recive in your email ( job )
+- dont pay 1 rupee to get the job ( fake)
+- dont provide certificate to any once before the job 
+- use your resume and keep giving interview 
+- get offer but 12lpa ( 1st shot)
+- 14th sep 23 - 14th sep 25  -- 1yr ( 1 offer ) 
+
+*** ARTIFICIAL INTELLGENCE ***
+NLP ( Natural Languag Processing)
+
+NLU (Natural language understanding)
+NLG (Natrual langauge generation )
+
+chatgppt born from nlp 
+
+nationl language - hindi, telugu, tamil, kanada, odia, bengali---- 
+intenational language  -- english, french, dutch, spanish, germany, chain -----etc
+
+human intelligen -- englih, hinda , telug,odia 
+how these langaueg can understad by machine 
+
+- NLTK (Natual Langauage Toolkit)
+- SPACY
+- STANFORD NLP 
+- GENSIM 
+
+
+steps to install nltk -->
+---
+import os
+import nltk 
+nltk.download() 
+*****15th*****
+
+NLU --> tokenization, stemming, lematization, pos, ner
+
+NLT 
+
+tokenization also called as tokens 
+words = tokens 
+
+from nltk.tokenize import word_tokenize
+
+from nltk.tokenize import sent_tokenize 
+															blankline_tokenize  
+
+
+word_tokenize --> words
+sent_tokenize --> sent 
+punct_tokenize --> 3.88 ( '3' '.' '88')
+blankline_tokenize --> paragraph
+whiteapsce_tokenizer--> tokenswith. 
+
+tokens divide to 3 part -->
+
+bigram  - 2 consective tokens 
+trigram
+ngram
+
+
+Stemming -- give you root word 
+-------
+porterstemer -->  give 
+lancasterstemmer --> giv
+snowballstemmer --> give 
+
+why we leanr this wher ein teal time 
+bi gram | n gram used 
+lancasterstemmer -- core root word 
+
+
+tokenization | type of tokens | stemming | lematization 
+
+lematization -- proper word
+stemming -- root word
+
+
+from nltk.stem import wordnet_lematizer 
+
+giving - proper word - giving 
+
+setmming & lematization part 
+
+stopwords in nlp -->
+----
+Stop words are a set of commonly used words in any language. 
+For example, in English, “the”, “is” and “and”, would easily qualify as stop words. 
+In NLP and text mining applications, stop words are used to eliminate unimportant words, 
+allowing applications to focus on the important words instead.
+--
+text preprocessing & text mining you need to eliminate all stopword to get better result
+
+179 stopword -- english ( using NLTK)
+
+research on datascience -->
+--
+how to create stopewords for local language >
+
+c++ & java code for this 
+
+
+https://github.com/stopwords-iso/stopwords-hi 
+hindi stopwords
+
+telugu stopwords -->
+-----
+https://sparknlp.org/2022/03/07/stopwords_iso_te_3_0.html
+
+tokens | bigram, trigram, ngram | porter stemer | lancasterstmer |snowball stmmer | lematiztion 
+stopwords
+*****16th********
+tokeniztaion | stemming  lematization| stopwords for multiple languages
+
+pos == part of speech 
+
+
+NER best library is spacy 
+nltk 
+
+from nltk import ne_chunk
+
+NLU topic completed -->
+---
+NLG (visualization)  (natural langaure generation)
+------
+wordcloud 
+
+
+'none', 'nearest', 'bilinear', 'bicubic',
+    'spline16', 'spline36', 'hanning', 'hamming', 'hermite', 'kaiser',
+    'quadric', 'catrom', 'gaussian', 'bessel', 'mitchell', 'sinc',
+    'lanczos'.
+
+NLP introduction is completed
+
+how to install R programing language -->
+-----
+1- anacoda navigator --> R 
+---------
+download & install specific version 
+https://cran.r-project.org/bin/windows/base/ 
+---
+download & install r studio -->
+https://www.rstudio.com/products/rstudio/download/
+********19th*********
+nlp -- nltk library 
+nlu & nlg 
+
+machine understand the languaage
+
+what is the next step-->
+
+text has to convert to number 
+
+NLP ALGORITHM || WORD EMBEDDING ALGORTHM -->
+-----
+convert text - number -- we apply to machine learning  ==> vectorization 
+
+how to convert unstrcuted data to structured data 
+
+Word embedding algorithm -->
+---
+1- bow ( bag of word) -- done
+2- tfidf (tf * idf) term frequency * inverse document freaquency) -- done 
+3- word2vec -- gensim library 
+
+
+BOW (BAG OF WORD)--->
+-----
+sklearn.feature_extraction import countvectorizer 
+
+TFIDF ==> TF * IDF 
+
+TERM FREQUENCY = NO OF REPETTATION OF WORDS IN SENTENCE / NO OF WORDS IN SENTENECE
+IDF = LOG(NO OF SENTENCE / NO OF SENTENCE CONTAINGING WORD)
+
+vectorize text document to numer using bow or tfidf 
+
+text - number 
+
+
+https://radimrehurek.com/gensim/models/word2vec.html 
+
+word2vec algorithm -->skip gram | cbow 
+
+--- other word2vec algoriytm -->FastText. || doc2vec 
+
+GENSIM LIBRARY ---> RESEARCH 
+
+https://www.analyticsvidhya.com/blog/2021/07/word2vec-for-word-embeddings-a-beginners-guide
+
+Amazon Fine Food Reviews --- from kaggel or else i will shar e the link 
+
+nlp algorithm we are completed 
+
+text datapreproeciin 
+
+text cleaning 
+
+, lower case 
+
+bow, tfidf 
+
+convert to ml algorthim
+
+sentence 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+														
+
+
+
+
+
+
 
 
 
