@@ -4007,12 +4007,12 @@ practi -- data architecture( 15yr exper)
 data 40lpa 
 googe itself 
 ******12th*******
---- Deployement ---
--- What are the issues you will face while deploy the model to production server 
+ Deployement 
+What are the issues you will face while deploy the model to production server 
 
--- understand business usecase, problem statment
--- application server & Production server
--job lib.load | joblb.dum() || pickle file 
+understand business usecase, problem statment
+application server & Production server
+job lib.load | joblb.dum() || pickle file 
 
 - we create backend ml model (lr)
 -- studenprediction.pkl 
@@ -4038,12 +4038,12 @@ every proejct has push to git as reposiraoty
 
 data not required to store in physical devise 
 
--- before you deply any code or any product make sure all the files should be in 1 folder --- bydefault 
-- backend code 
-- frontend designer | html page design 
--- backedn + html + fronendd evloper == product 
--- deployemnt team 
--- after you build the model --> 
+Before you deply any code or any product make sure all the files should be in 1 folder --- bydefault 
+backend code 
+frontend designer | html page design 
+backedn + html + fronendd evloper == product 
+deployemnt team 
+after you build the model --> 
 
 
 host = '127.0.0.1', port=500 ---> deployment team 
@@ -4051,7 +4051,7 @@ deployemnt code never runs line by line
 
 what are the issues you face while deploy the model from applicaiton server to production server ?
 
---> open source library || whild deployemet all the applicaiton should be licensed one ( ananconda business edition) 
+ open source library || whild deployemet all the applicaiton should be licensed one ( ananconda business edition) 
 --> security ( while ( personal credential || hipaa | pip |) 
 --> database timeer 
 --> location 
@@ -4383,6 +4383,261 @@ bow, tfidf
 convert to ml algorthim
 
 sentence 
+*****20th******
+customer review analysis = customer feedback anlaysis == sentiment analysis
+
+banking || insurnce || telcome | finance
+
+customer wen 
+give me 5 min
+
+database --> comments column 
+
+sql qurey and take out the comment from the table 
+
+-- how to convert unstruct data - structured data - ml algorithm 
+
+while you learn the model building have you face ever any challenges 
+answer -- this practicle 
+ac - 67%, bias - 99% ( how to over come this one)
+----
+we try all the possbility still ac is not improved so what next??? 
+--- 
+please add the sample to the dataset (1000 records) 
+can you build the model 3000 records  ( add more data to the dataset)
+---
+please build the model with stopword -->
+
+overfitting happen 
+
+reduce overfitting 
+
+good ac, good bias, good variance
+---- customer review analysis or sentiment analysis 
+*****21st*****
+python -m spacy download en_core_web_sm
+
+en_core_web_md || en_core_web_lg
+
+fr_core_web_sm | fr_core_web_md\
+
+spacy 
+text summarization using spacy library -->
+
+us --> patence
+
+heapq --> ascendeig & descending order 
+
+twython libraryy
+text summerization 
+heapq  -- nlargest & nsmallest
+
+webscrapping -->
+---
+how to extract the datset from r programming
+*****22nd********
+
+spark -- big data tools
+
+spark + java 
+spark  + c 
+spark + python = pyspark 
+pyspark -- individual 
+
+or when you instlal hadoop then spark is inbuild in haddop ecosystem
+
+fault tolerance -- 
+
+hdfs -- hadoop distributed file system
+dbfs -- databricks fille system
+
+Steps to installation of pyspark -->
+----------------------
+1- download & Install anaconda 
+2- download & Install java jdk8 only applicable  -->
+		https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html
+3- cmd -- java -version (200% it will not work )
+4- cut java folder from progam file --> create a new folder in c:drive | move java folder to cdrive 
+				referecen --> C:\DATA ENGINEER\java
+5- Download spark file from -->https://www.apache.org/dyn/closer.lua/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+6- cut spark zip folder from downlload folder move to c:drive (dnt creat any folder) 
+7- winutils (hadooop exten) 	-- download hadoop.exe file from specific version ( winutils & hadoop version should math)
+8- after donwload hadoop.exe cut the file and paste to (spark | bin | past )
+		reference file --> C:\spark-3.2.1-bin-hadoop3.2\spark-3.2.1-bin-hadoop3.2\bin\winutils.exe
+9- set enviroment variable 
+10- start - env - edit the system environment variable -- environment variable 
+11- user varaiable & system variable 
+12- user variable -- New -- JAVA-HOME === ASSIGN THE PATH TO IT (C:\DATA ENGINEER\Java\jdk1.8.0_202
+13- user variable -- New - Spark-Home === ASSIGN THE PATH TO IT (C:\spark-3.2.1-bin-hadoop3.2\spark-3.2.1-bin-hadoop3.2
+14- user variable -- New - Hadoop-Home === ASSIGN THE PATH TO IT (C:\spark-3.2.1-bin-hadoop3.2\spark-3.2.1-bin-hadoop3.2	
+15- system variable - path - new - C:\DATA ENGINEER\Java\jdk1.8.0_202\bin
+16- system variable - path - new - C:\spark-3.2.1-bin-hadoop3.2\spark-3.2.1-bin-hadoop3.2\bin 
+17- cmd -- java -version -- 300% it will work 
+18- install FINDSPARK pkg from anaconda prompt --> https://anaconda.org/conda-forge/findspark
+19- cmd - pyspark -- you will see spark logo -- installed successfully 
+20- jupyter - new notebook -- 
+		import pyspark | pip install pyspark
+		import findspark | findspark.init() | findspark.find()
+		
+		if you get the path location --> 'C:\\spark-3.2.1-bin-hadoop3.2\\spark-3.2.1-bin-hadoop3.2'
+		
+-- Install pyspark in our local machine -- (we build machine learn ing in pyspark)
+-- install pyspark in cloude -- (aws, azur, gcp) --- databricks
+-- install pyspark in distribute storage - hadoop ecosystem when we install on top of linux 
+	spark also act HDFS
+****25th******
+import xml.etree.ElementTree as ET
+
+A data structure representing a parsed HTML or XML document. -- beautifullsoup
+
+text cleaning using some of the important library 
+
+
+we are discusion with xml artick e-
+website -- collection of xml article/
+banking |  heal care | instura | 
+
+
+only 1 article 
+
+can we deal wiht multiple article 
+1 - cancer, diab, brain tumor 
+2-  cancer, diab, brain tumor 
+3-  cancer, diab, brain tumor 
+
+1 + 2 + 3 = combine all the article 
+elbow grah e-- how many cluster i can make 
+wordcloud every cluster 
+word nlg data 
+
+customer -- access to the website -- word cloud visualization 
+custoemr refer to some 
+
+cancer | diab| brin 
+project  1- text cleaing from single article 
+project- text cleanrin from all the combine article then clean it 
+
+https://github.com/orgs/Data-Science-Project-AMXWAM/dashboard  -- it would help to add more project in your resume
+client | to whom you work 
+what benefit oragnization got from you 
+
+fresher -- uci machine learning repository 
+
+r programing -->
+******26th*****
+
+# Clear plots from r studio -->
+dev.off()
+
+#Clear console
+cat("\014")
+
+p_load(pacman, dplyr, GGally, ggplot2, ggthemes, 
+  ggvis, httr, lubridate, plotly, rio, rmarkdown, shiny, 
+  stringr, tidyr) 
+  
+  ggplot 	 - matplotlib
+  
+  install.packages("pacman")
+  
+  NLP IS COMPLETED 
+  
+Lets combine multiple article xml file 
+- how to cluster them 
+-- how to score them 
+- nlp how to implement k-means clustering we will discuss today
+
+urllib -- url's + lib 
+
+nlp + python + clusteirng + ml + scraping
+****27th******
+Deep learning -->
+***** 
+
+sklearn - framework ml 
+nltk, spacy - framework for nlp 
+tensforflow - framework for deep learning 
+
+some time machine learnign fails then only we go to deep learning 
+images, audio, video,sensor -- deep leanring ( sklearn framework not works)
+tensorflow environemt 
+
+STEPS TO CREATE TENSORFLOW ENVIRONMENT -->
+--------
+1- anconda prompt
+2- conda create -n tensorflow_env tensorflow
+3- Activate tensorflow_env  ( base will convert to tensorflow_env)
+4- Anaconda navigator -- change from base to tensorfflow_env
+5- click on setting of jupyter notebook - install specfic version 
+6- click on setting of spyder -- install specific version 
+7- start - expand to anaconda folder -- jypyter icon( tf) || spyder icon(Tf)
+8- lets install all packages under tensorlow_env 
+9- pip install keras==2.3.1   (install keras library) 
+10- pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html 
+					install pytorch 
+11 - pip install opencv-python  (install opencv tensorflow & base as well) || 
+12- pip install ultralytics ( https://pypi.org/project/ultralytics/) 
+13- other basic libraries need to install on tensorflow_env( - numpy, scipy, pandas, matplotlib, seaborn, sklearn, nltk, spacy, gensim, etc 
+14- lets test tensoflow in jupyter 
+15- jupyter base -- import tensorflow as tf (it will error)
+16- jupyter tensorflow -- import tensorflow as tf ( it will work)
+17 - from keras.preprocessing.image import ImageDataGenerator 
+		 (tensorflow always backed & keras is frontend)
+18 - successfully installation are completed 
+
+==== deep learning ==== 
+
+you can build deep learning model either in  tensorflow or pytorch 
+image , we can build either in open cv or yolo 
+
+
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName('practise').getOrCreate()
+
+.show() 
+spark.read.option('header','true')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
