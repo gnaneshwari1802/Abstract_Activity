@@ -1,0 +1,19 @@
+# using python split() str10 = '56th, Bn Street, BTM Layout, banglore ,78909'
+l = str10.split(",")
+l
+
+# Assigning split parts to variables
+
+door_no = l[0]
+street_name  = l[1]
+area_name = l[2]
+city = l[3]
+pincode = l[4]
+
+# Printing the assigned variable
+
+print("Door No:",door_no)
+print('Street Name:',street_name)
+print('Area Name:',area_name)
+print('City :' ,city)
+print('Pincode : ',pincode)
