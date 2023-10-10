@@ -17,3 +17,19 @@ print('Street Name:',street_name)
 print('Area Name:',area_name)
 print('City :' ,city)
 print('Pincode : ',pincode)
+Problem
+
+import pandas as pd
+df= pd.DataFrame({
+    'ADDRESS':('56th,ben colony,btm layout,banaglore,78909,3rd,april,2022,5hr,55min,8sec',
+                '20th street,jonhs road,whitefield,bangalore,78567,6th,dec,2021,0.280704741')})
+
+1st method (Split text to multiple columns with dataframe)
+
+
+
+df[["house no","street","city","state","zipcode","day","month","year","hr","mm","ss"]]=df["ADDRESS"].str.split(",",expand=True)
+df
+
+2nd method (Split text to multiple column by delimiter)
+df["ADDRESS"].str.split(',',expand=True)
