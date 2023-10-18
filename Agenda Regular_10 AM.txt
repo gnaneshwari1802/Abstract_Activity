@@ -4596,96 +4596,683 @@ spark = SparkSession.builder.appName('practise').getOrCreate()
 
 .show() 
 spark.read.option('header','true')
+*****28th*******
+
+Installation we learnt 
+
+deep learnning --> 
+------
+collection of neural network -->
+
+ann (artificial neural network ) --- data is number 
+cnn ( convolution neural netowrk) ---data image, video, streaming  ---> then we will apply ann 
+rnn (recurrant nerual network) -- data is text, speech, voice ---> then we will apply ann ( advanced nlp )
+
+god create human neural network ( HNN) 
+human create artificial neural network ( ANN) 
+
+HNN vs ANN 
+
+example -->
+---
+mosquito exampl 
+i/p layer
+h/l layer
+o/p layer 
+
+ANN architecture -->
+----
+neuron 
+signal 
+weight 
+how to pass the signal
+activation function 
+- math formual creates
+- single layer neural network --> 1 i/p layer, 1 h/l & 1 o/p layer 
+- forward propagation  == feed forward cycle 
+- backwards propagation == fine tunning of the weight = backward propagation of errors 
+- how to adjust the weight 
+- epoch ( fp + bp) 
+- every epoch we reduce the loss function to increse the accuracy 
+- new weighgh = old weight - learnin rage derivation loss / derivative old weight
+- some example of how the back propagation are done
+- multi neural network - we have more then 1 hidden layer 
+- snn VS mnn
+
+ACTIVATION FUNCTION -->
+----
+1- SIGMOID AF ---binary class classification 
+2- TANH AF -- binary class classification 
+3- RELU AF---binary class classification 
+4- LEEKYREALU AF---binary class classification 
+5- SOFTMAX AF ---mulitclass  classification 
+
+1- sigmoid activation function -->
+-----
+range is 0 - 1
+sigmoid af always impleted in o/p layer ( ann, cnn, rnn)
+
+2- tanh activation function -->
+--
+if the data set found as -ve 
+tanh is alwasy implete in o/p layer (
+tanh activation function range is ==> (-1 to 1)
+
+sigmoid vs tanh 
+
+3- relu (rectifier) activation function -->
+--- 
+relu formula = max(x, 0)
+
+max(-1, 0) --> 0
+max(1,2) --> 2 
+relu we never get negative value 
+range of relu activation function ==> 0 -- infinity 
+
+4- leeky relu activation function -->
+----
+relu & leeky relu works at similar but leeky relu handle -ve vlaue as well x<0
+thats why formula -1 to infinity and we not apply max formula 
+range is -1 to infinitye
+leeky relu also apply in i/p & hiddenly layer 
+
+
+sigmoid vs tanh 
+relu vs leeky relu 
+
+5- softmax activation function -->
+---
+when the data is image, text, multi class classificaiton we can use softmax fuction 
+- softmax calculat the probablility distribtion 
+
+uniform vs gausian vs probablity 
+image ( 80% | 90% dog | 10% - horse) 
+
+binary class -- softmax range is 0-1  (output layer)
+multi class - % of probability 
+
+activation function completed 
+ann neural network architecure completed
+fp, bp, epoc , adjusted weight - completed
+snn vs mnn - compelted 
+****29th****
+- vanishing grdient descend --> old = new weight 
+- chain rules --> mnn -- we are using chain to reduce overfitting or reduce vgd 
+- drop out the neurons -->
+- build the practicle in cpu
+
+while we do back propagation if new weight = old weight then vanishing gradeint descend problem occures
+
+if the modle is overfitting then this probem occure 
+
+how to over come vgd problem -->
+---
+drop out & regularizaiton  -- done
+ chain rule -->
+ ---
+ ANN THEORITICAL CONCEPT WE ARE COMPLETED 
+ ====
+ ANN PRACTICLE -->
+ --
+ TENSORFLOW 
+
+
+tf.keras.models.Sequential() -->
+--
+What is sequential () TensorFlow?
+
+Get started with TensorFlow 2.0 — Introduction to deep ...
+The sequential model allows us to specify a neural network, precisely, sequential: 
+from input to output, passing through a series of neural layers, one after the other. 
+TensorFlow also allows us to use the functional API for building deep learning models.
+
+tf.kearas.layer,dense --> densly connecte between 1 neural network to other neural networkd
+
+how many optimizer -->
+1- adam ((Adaptive Moment Estimation))
+2- adadelta
+3- adagrade
+4- rmsprop (RMS Prop ) (Root Mean Square)
+5- gd 
+6- sgd
+7- bgd 
+8- Nesterov Accelerated Gradient
+
+https://towardsdatascience.com/optimizers-for-training-neural-network-59450d71caf6
+https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/									
+
+
+loss function --->
+--- 
+regression (loss)
+mae 
+mse
+logloss
 
+classificaiton 
+entropy 
+binary_cross entropy -- if the data is number 
+category_cross entropy -- if the data is image 
+
+Regression Loss Functions — used in regression neural networks; given an input value, 
+the model predicts a corresponding output value (rather than pre-selected labels); 
+Ex. Mean Squared Error, Mean Absolute Error
 
+Classification Loss Functions — used in classification neural networks; given an input, the neural network 
+produces a vector of probabilities of the input belonging to various pre-set categories — can then select the 
+category with the highest probability of belonging; Ex. Binary Cross-Entropy, Categorical Cross-Entropy
 
+https://towardsdatascience.com/loss-functions-and-their-use-in-neural-networks-a470e703f1e9
+*****2nd******
 
+ANN theory & practcile we are complete
+can you please build ann neura network on regresison price prediction 
+ann in price predication 
+'
+When we change paramater to gd --> it takes more and system hangs ( this is the not problem) 
 
+GPU 
 
+TODAY WE BUILD SAME ANN MODEL USING GPU -->
+CPU vs GPU  ==>
 
+STEPS TO WORK WITH GPU -->
+--
+1- google
+2- google colab -- create new notebook 
+3- run time - change the type from cpu - gpu 
+4- test this a = 5( check you ram & gpu memory)
+5- past the dataset & if you script file you can paste into google drive 
+6- left side -- click on files - mount drive 
+7- after allowe the permision to mount the drive - you can see drive in left pane 
+8- click on the script file 
+9- user must change the path location by right click on dataset - copy the path 
+10- compare with cpu vs gpu 
 
+If we work on gd optmizer make sure you can work in gpu only 
+what are challe on deep learning project
 
+project from kaggle in ann 
+--->
+R programing using regression algorithm ()
+so far i will shar all machine leanring algoriths r -code 
+you keep it with your self (if the time required)
+-- python is connected to everhwayer 
+=== introduce cnn -->
+convolution neural network 
+cnn engineer -- 5lp ( 10 lpa)
+cnn project - research project 
 
+-- we are completed with ann , r ( i wil share the code)
+amazon review in ann || musical instrument in ann 
+*****3rd******
 
+ann -- artificial neural network --> completed ( cpu vs gpu)
 
+cnn ( convolution neural network)
+- library or frame work ( open CV | YOLO ) 
 
+HUMAN VISION vs Computer vision 
 
+2d -- black & white
+3d -- rgb (red , green, blue) 
 
+rainbow -- 7 color 
 
+each image the moment when you trained it will split into the pixeel based on size of the image 
 
+every pixel - 0 to 255
 
+keras --> img_to_array, ,  arr_to_img 
 
+cnn --> convoltion 
+					maxpooling 
+								flattening
+									fully connected layer
+									
+step-1 : convolution :
+----
+i/p matrix ===> filter ===> o/p matrix 
 
-		
+by defualt filter always be ==> 3 * 3 
 
-		
+i/p matrxi * feature detector(filter) =feature map (o/p matrix)
 
+n-f + 1
+n - i/p matrix || f - filter 
 
+(n-f+1) ==> convolution layer
 
+convolition --> i/p * feature detector = feature map 
+string & padding concept --> 
 
+image ---> i/p * filter = o/p 
 
+step -2: 
+----
+max polling 
 
+max pooling layer always apply next to the o/p matrix ( feature map) 
+max pooling (2*2)
 
+image ==> i/p matriz * filter == o/p matrix ===> max pooling 
 
+image data , -- data set is definitely very large
 
+human being 
 
+every time when you build image processing you need to train the model with more image 
 
+unique --> data augumentation 
 
+create a more more image from unique image then train to the model 
 
+STEP-3: FLATTENING -->
+---
+Flatten layer is used to make the multidimensional input one-dimensional, commonly used in the transition 
+from the convolution layer to the full connected layer.
 
+STEP-4 : FULLY CONNECTED LAYER -->
+---
+CNN arcitecture we coverd as well
+****4th******
+data augumentataion -->
 
+create  multiple image | augument from single image then we go for train the model 
 
+ imagedatagenertor 
+keras.preprocessing.image
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-					
-														
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image 
+data augment project -->
 
  
+fill_mode: One of {"constant", "nearest", "reflect" or "wrap"}.
 
+https://keras.io/api/applications/#usage-examples-for-image-classification-models --> realy raly important
+it will boost up your productive call
+
+data augmentiao we are completed 
+
+image -- convolution -- max pool -- flattening - fully conected layer
+
+**** build 1 project ***
+
+MOOD CLASSIFICAOTN USING CNN 
+--
+- 3 folder
+- trainng  ( happy | sad) - 2 subfolder
+- testing ( happy | sad) - 2 subfolder 
+-validation (happy | sad)  - 2 subfolder
+
+-- you can download your happy image & sad image 
+ 
+ Loads an image into PIL format. --> load_img
+ 
+ color_mode: One of "grayscale", "rgb", "rgba". Default: "rgb".
+        The desired image format.
+
+150 colore dimension space 
+target size - height of image * width of image 
+interpolition --> "nearest", "bilinear", and "bicubic"
+
+cv2.imread --> The function imread loads an image from the specified file and returns it
+
+tf.keras.layers.Conv2D 
+
+
+kernel_initializer=
+Random Initialization:
+Xavier/Glorot Initialization
+'glorot_uniform', 
+He Initialization
+LeCun Initialization
+
+epoc in ann & epoc in cnn --> learned 
+
+in random forest model how do you decidn how many estimator ?? 
+
+90 - 100 
+
+70% 
+
+m- 300 
+
+image calss classifcaiotn ( happy | sad) -- cpu 
+
+binary image class classification 
+multiclass image classificaiton image using softmax ( gpu ) google colab
+
+cnn -- are you understand 
+image -- tensorflow, keras 
+***5th***
+installation it will take more times
+
+.show() 
+-header=True,inferSchema=True
+
+.withcolumnrenamed
+
+we worked with tensorlfow, kearas, ---pre trained mode
+
+- immage proceisnng , video, traincing ---> open cv or yolo ( v1.0 -- yolog v8.0)
+
+how to read the image, write the image & display the image opencv
+
+-- normal jupyter work this prject ( with out tensorflow)
+
+-- instll the opencv
+ 
+
+cv2.imread() --> The function imread loads an image from the specified file and returns it
+cv2.imshow() --> function imshow displays an image in the specified window
+cv2.waitkey() --> The function waitKey waits for a key event infinitely (when \f$\texttt{delay}\leq 0\f$ ) or for delay
+							brief Waits for a pressed key.
+cv2.destroyAllWindows() --> 
+@brief Destroys all of the HighGUI windows.
+.   
+.   The function destroyAllWindows destroys all of the opened HighGUI windows
+					
+.imwrite() --> 
+The function imwrite saves the image to the specified file. The image format is chosen based on the
+.   filename extension 
+
+
+HAARCASCADECLASSIFIER -->
+-- 
+Haar cascade classifiers are a type of machine learning algorithm used for image classification tasks.
+hey are particularly useful for detecting objects with distinct edges, FACE, TEXT
+
+EDGE FEATURE 
+LINE FEATURE 
+RECTANGLE FEATURE 
+
+
+https://github.com/opencv/opencv/tree/master/data/haarcascades
+
+
+CV2.CASCADECLASSIFIER() --> CascadeClassifier method in cv2 module supports the loading of 
+haar-cascade XML files. Here, we need “haarcascade_frontalface_default. xml” for face detection.
+It uses a cascade of detectors to identify objects in an image or video stream. 
+The classifier can be trained on a dataset of labeled examples to recognize different object categories.
+
+
+CV2.CVTCOLOR() -->
+ cv2.cvtColor() is a function in OpenCV that converts image data from one color space to another. 
+ It takes an image as input and returns the converted image in the specified color space. 
+ The function supports a variety of color spaces, including RGB, HSV, and CMYK.
+
+cvtColor() method is used to convert an image from one color space to another. 
+There are more than 150 color-space conversion methods available
+
+https://stackoverflow.com/questions/62855718/why-would-cv2-color-rgb2gray-and-cv2-color-bgr2gray-give-different-results
+
+CV.DETECTMULTISCALE() -->
+Great! DetectMultiscale is a powerful feature in OpenCV that allows you to detect multiscale 
+features in an image. With DetectMultiscale, you can detect multiple scales of a particular feature 
+in an image, which can be useful for tasks such as object recognition, image segmentation, and image 
+compression. To use DetectMultiscale, you can call the cv.detectMultiscale() function and pass in the image 
+you want to analyze, as well as the scale ranges you want to detect.
+
+It takes 3 common arguments — the input image, scaleFactor, and minNeighbours. scaleFactor specifies how much the image size is reduced with each scale.
+
+****6th*****
+project -- How to detect face & eye from live video 
+project -- car & pedestrian detect using cascade
+
+cv2.rectangle --> The cv2.rectangle() function in OpenCV library is used to create a rectangle in an image.
+
+v2.rectangle(image, start_point, end_point, color, thickness)
+
+Parameters:
+image: It is the image on which rectangle is to be drawn.
+
+start_point: It is the starting coordinates of rectangle. 
+The coordinates are represented as tuples of two values i.e. (X coordinate value, Y coordinate value).
+
+end_point: It is the ending coordinates of rectangle. The coordinates are represented as tuples of two values i.e. (X coordinate value, Y coordinate value).
+color: It is the color of border line of rectangle to be drawn. For BGR, we pass a tuple. eg: (255, 0, 0) for blue color.
+
+thickness: It is the thickness of the rectangle border line in px. Thickness of -1 px will fill the rectangle shape by the specified color.
+Return Value: It returns an image.
+
+selectroi() --> region of interest 
+With this method, we can select a range of interest in an image manually by selecting the area on the image. 
+Parameter: window_name: name of the window where selection process will be shown. 
+source image: image to select a ROI.
+
+What is cv2 VideoCapture () == work with webcam() 
+
+How to get properties of Python cv2.VideoCapture object 
+cv2. VideoCapture is a function of openCV library
+(used for computer vision, machine learning, and image processing) 
+which allows working with video either by capturing via live webcam or by a video file.
+
+cap.relase()
+release() Once our work with the video is done, it is required that we release the resources that we 
+have initialized for our code. For eg, if the VideoCapture object is using the webcam, then while it is using it, 
+no other process on your system can use the webcam.
+
+
+every video is collection of images -->
+
+video -- image -- image -- image -- image 
+
+In this OpenCV tutorial, we will learn how to apply Gaussian filter for image smoothing or blurring using 
+OpenCV Python with cv2.GaussianBlur() function.
+
+cv2.canny --> Canny edge detection algorithm 
+******9th*********
+binary class classfication using cpu
+
+project -- multiclass classification using gpu || fruit class classification using gpu
+
+
+how to deply to mobile device we learn today ( 
+
+mobile -- android | iphone
+3folder in the system 
+
+
+manaully if we collect 20k fruits -- >
+
+if you go to the webste lets assure we havd 
+
+-- more image is you found from the website 
+--   !wget -->
+t's a command-line tool for downloading files and directories from the web. It supports HTTP, HTTPS, and FTP 
+
+when ever working on multiclass classificaiton -->
+
+train > test > validation 
+163 image> 43image > 23image 
+
+rmsprop -- we will use when input data is image
+
+we build the multiclass cnn model --> predictiion -- 96%
+
+what next ??
+
+next step is deployement in ai model 
+
+pickle 
+
+hi5 == act simplare as pickle 
+
+tensolflow lite --> real time 
+
+deply your ai model to the android device -
+tensorflow lite 
+
+AI model developer -- devloper load data ( dataset is high)
+
+save to tflite.py
+
+backedn devloper --> by using any app ( android developer connect to tflite_model)  
+
+how to fill missing value using pyspark 
+
+sklearn.impute 
+
+from pyspark.ml.feature import Imputer
+
+fit & transrom also applicabel in pyspark 
+
+sklearn --> mlib 
+*****10th*************
+Project - Hand Gesture Recognition we are going to build with mediapipe 
+mediapipe create google 
+
+how  AI is help to communicate to the world 
+
+https://github.com/google/mediapipe/blob/master/docs/index.rst
+
+MediaPipe Objectron ->
+MediaPipe Objectron processes an RGB image and returns the 3D box landmarks
+and 2D rectangular bounding box of each detected object.
+
+
+Project -- 3D Object Detection from images & videos given by url  
+mediapip.
+
+MediaPipe Holistic utilizes the pose, face and hand landmark models in MediaPipe Pose, 
+MediaPipe Face Mesh and MediaPipe Hands respectively to 
+generate a total of 543 landmarks (33 pose landmarks, 468 face landmarks, and 21 hand landmarks per hand).
+
+https://developers.google.com/mediapipe/solutions/examples 
+*** 11th********
+time series --> regression algorithm 
+
+regress vs time series
+
+regression -- 2 variable 
+time series -- 1 variable ( time) 
+
+AR (AUTO REGRESSIVE) 
+MA (MOVING AVERAGE)
+ARMA (AR + MA)
+ARIMA (ARMA with INTEGRATION)
+ARIMAX (ARMA WITH X-trogeneous factor)
+SARIMAX ARMA with Seasonal X-trogeneous factor)
+
+
+TIME SERIES DATA -- the data which collectes on regular time interval is called time series data (salary employee)
+CROSS SECTION DATA -- the data which does not collects on regular time intervale time cross section data (		business tycoons 
+	
+these are the time series pattern -->
+trend, seasonal, cyclical, random componenet 
+		
+1- AR MODEL ( Auto regressive ) | AR (p)
+--
+y = f(t-1, t-2 ----) 
+previuse time 
+
+2-MA --> MA(q)
+-----
+we check the past error 
+previouse error 
+
+3- ARMA ( ARp + MA q)
+--
+combination of both 
+
+4- ARIMA ( ARMA with integration )
+----
+in the dataset if you dont find constant mean that is called non stationary 
+
+to convert non stationary to station  --- ARIMA MODEL 
+constatn mean 
+flith -- every 
+
+5- SARIMA (Seasonal AutoRegressive Integrated Moving Average) 
+--
+1st 
+3rd 
+6ty
+seasonal you can find the constant mean 
+
+6- ARIMAX(AutoRegressive Integrated Moving Average with eXogenous variables)
+---
+10 attribute ( impact on your time series )
+stock market 
+war stock impact 
+
+7- SARIMAX(Seasonal AutoRegressive Integrated Moving Average with eXogenous ) -->
+----
+season & non seaason exogeneour to improve time series forecasting
+
+mango 
+3month ---> cyclone || 
+
+1mont -- heavey 
+2month-- production 
+1month -- heavey rain()
+
+time series data 
+cross sectional data
+white noise
+non stationary
+stationary 
+how to convert non stationary - stationary
+TIME SERIES MODEL -->
+--
+AR | MA | ARMA | ARIMA | SARIMA| ARIMAX | SARIMAX 
+
+concept are cllea r -- part-1 
+=== 
+project -- object tracking from live installed camera
+
+https://pyimagesearch.com/2018/07/30/opencv-object-tracking/ -- please refer this 
+
+8 tracking algorithm -->
+--
+BOOSTING Tracker:
+MIL Tracker
+KCF Tracker
+CSRT Tracker
+MedianFlow Tracker
+TLD Tracker:
+MOSSE Tracker:
+GOTURN Tracker
+
+What is background subtraction for object detection?
+
+cv2.createBackgroundSubtractorMOG2()
+Background subtraction is a widely used approach to detect moving objects in a sequence of 
+frames from static cameras. The base in this approach is that of detecting moving objects from the 
+difference between the current frame and reference frame, which is often called 'Background Image' or 'Background Model'.
+****12th*******
+
+fashion industry ( cnn & ann)
+client -- project -->
+fashion mnist () -->
+
+india 
+us 
+
+vanhussan -->
+www.vanhusan.com/chin ---> 
+
+multip model for multiple country 
+combne -- feath one deployment server 
+
+china -- || usa ||  uk 
+
+MNIST DATABASE --
+
+Context. Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples.
+
+TRAIING -- 60000 IMAGES
+TESTING - 10000 IMAGE 
+
+amazon sagemaker -- 
+
+if the data is image , multiclass classfiication -- loss functionas -- SparseCategoricalCrossentropy
+
+ 
+never ever do internship in training instiste
+
+do intern on oragnaization 
 
 						
 	
