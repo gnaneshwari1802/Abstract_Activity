@@ -1,3 +1,5 @@
+Step - 1: Business Problem Undersatnding
+Step - 2: Data Understanding
 # import require library 
 
 import numpy as np 	
