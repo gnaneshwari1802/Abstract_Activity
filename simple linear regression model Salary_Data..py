@@ -1,5 +1,14 @@
 Step - 1: Business Problem Undersatnding
 Step - 2: Data Understanding
+2.1 Data Collection
+Data Preprocessing
+3.1 EDA
+3.2 Data Cleaning
+3.3 Data Wrangling
+3.4 Train-Test Split
+4. Modelling
+5. Evaluation
+
 # import require library 
 
 import numpy as np 	
